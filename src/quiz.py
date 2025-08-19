@@ -8,6 +8,7 @@ def fetch_quiz_results():
         context = browser.new_context(locale='zh-CN')
         page = context.new_page()
         page.goto("https://www.bing.com/search?q=Bing%20Homepage%20quiz&form=ML2BF1&OCID=ML2BF1&mkt=zh-CN")
+        print("Current URL: ", page.url)
         answers = []
         for i in range(3):
             time.sleep(1)
@@ -25,13 +26,14 @@ def fetch_quiz_results():
                 rep = re.search(r"(\d+%)", rate)
                 assert rep
                 rate = rep[1]
+            print(f"{question.strip()} {answer.strip()} {rate.strip()}")
             answers.append({
                 "question": question.strip(),
                 "answer": answer.strip(),
                 "rate": rate.strip()
             })
             if i < 2:
-                page.get_by_role("button", name="下一个问题").click()
+                page.locator(f"#nextQuestionbtn{i}").click()
         context.close()
         browser.close()
         return answers
