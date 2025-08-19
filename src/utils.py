@@ -1,5 +1,7 @@
-import json
 from pathlib import Path
+from datetime import datetime
+import pytz # pyright: ignore[reportMissingModuleSource]
+import json
 
 
 def read_json(file_path):
@@ -19,6 +21,8 @@ def write_json(file_path: Path, data: dict):
 
 
 def get_current_date():
-    from datetime import datetime
-
-    return datetime.now().strftime("%Y-%m-%d")
+    # 创建北京时间时区对象
+    beijing_tz = pytz.timezone("Asia/Shanghai")
+    # 获取当前北京时间
+    beijing_time = datetime.now(beijing_tz)
+    return beijing_time.strftime("%Y-%m-%d")
