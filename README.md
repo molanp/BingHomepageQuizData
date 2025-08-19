@@ -7,7 +7,7 @@
 ## Web API
 
 #### 获取历史题目数据
-`/history/{{YY-MM-DD}}.json`
+`/history/{YY-MM-DD}.json`
 
 #### 获取今日题目数据
 `/current.json`
