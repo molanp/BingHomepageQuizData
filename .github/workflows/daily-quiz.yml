@@ -4,6 +4,8 @@ on:
   schedule:
     # 每天北京时间 00:01 (UTC+8)，对应 UTC 16:01
     - cron: "1 16 * * *"
+    # 每天北京时间 23:00 (UTC+8)，对应 UTC 15:00
+    - cron: "0 15 * * *"
   workflow_dispatch:
 
 jobs:
@@ -12,6 +14,7 @@ jobs:
     env:
       LANG: zh_CN.UTF-8
       LC_ALL: zh_CN.UTF-8
+      PYTHONUNBUFFERED: 1
     permissions:
       contents: write
 
@@ -35,7 +38,7 @@ jobs:
         id: cache-playwright
         uses: actions/cache@v4
         with:
-          path: ~/.cache/ms-playwright
+          path: C:\Users\runneradmin\AppData\Local\ms-playwright
           key: playwright-${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}
 
       - name: Install Playwright browsers
@@ -45,7 +48,7 @@ jobs:
 
       - name: Run daily quiz
         run: |
-          python src/main.py
+          python -u src/main.py
 
       - name: Commit and push changes
         run: |
