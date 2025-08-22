@@ -1,0 +1,58 @@
+name: Daily Quiz
+
+on:
+  schedule:
+    # 每天北京时间 00:01 (UTC+8)，对应 UTC 16:01
+    - cron: "1 16 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-record:
+    runs-on: windows-latest
+    env:
+      LANG: zh_CN.UTF-8
+      LC_ALL: zh_CN.UTF-8
+      PYTHONUNBUFFERED: 1
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        id: setup_python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Cache Playwright browsers
+        id: cache-playwright
+        uses: actions/cache@v4
+        with:
+          path: C:\Users\runneradmin\AppData\Local\ms-playwright
+          key: playwright-${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}
+
+      - name: Install Playwright browsers
+        if: steps.cache-playwright.outputs.cache-hit != 'true'
+        run: |
+          python -m playwright install
+
+      - name: Run update record
+        run: |
+          python -u src/update.py
+
+      - name: Commit and push changes
+        run: |
+          $beijingDate = (Get-Date).ToUniversalTime().AddHours(8).AddDays(-1).ToString('yyyy-MM-dd')
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add current.json history/
+          git commit -m "Update record data $beijingDate" || echo "No changes to commit"
+          git push

@@ -1,5 +1,5 @@
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz # pyright: ignore[reportMissingModuleSource]
 import json
 
@@ -21,8 +21,11 @@ def write_json(file_path: Path, data: dict):
 
 
 def get_current_date():
-    # 创建北京时间时区对象
     beijing_tz = pytz.timezone("Asia/Shanghai")
-    # 获取当前北京时间
     beijing_time = datetime.now(beijing_tz)
+    return beijing_time.strftime("%Y-%m-%d")
+
+def get_yesterday_date():
+    beijing_tz = pytz.timezone("Asia/Shanghai")
+    beijing_time = datetime.now(beijing_tz) - timedelta(days=1)
     return beijing_time.strftime("%Y-%m-%d")
