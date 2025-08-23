@@ -1,4 +1,4 @@
-name: Daily Quiz
+name: Update Record
 
 on:
   schedule:
@@ -30,19 +30,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
-
-      - name: Cache Playwright browsers
-        id: cache-playwright
-        uses: actions/cache@v4
-        with:
-          path: C:\Users\runneradmin\AppData\Local\ms-playwright
-          key: playwright-${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}
-
-      - name: Install Playwright browsers
-        if: steps.cache-playwright.outputs.cache-hit != 'true'
-        run: |
-          python -m playwright install
+          pip install pytz requests
 
       - name: Run update record
         run: |
