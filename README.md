@@ -9,8 +9,10 @@
 #### 获取历史题目数据
 `/history/{YY-MM-DD}.json`
 
+eg: [/history/2025-09-01.json](history/2025-09-01.json)
+
 #### 获取今日题目数据
-`/current.json`
+[`/current.json`](current.json)
 
 
 ## 数据结构
