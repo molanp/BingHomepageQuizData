@@ -13,6 +13,8 @@ date = get_yesterday_date()
 
 data = read_json(PATH / "history" / f"{date}.json")
 
+print(f"Updating {date} record...")
+
 result = []
 for r in data["result"]:
     record = requests.post(
@@ -26,6 +28,6 @@ for r in data["result"]:
     )
     r["choices"] = record.json()["TotalQuestionVotesCount"]
     result.append(r)
-    print(f"Successful to update {r['question']} choices")
+    print(f"Successful to update {r['question']}")
 data["result"] = result
 write_json(PATH / "history" / f"{date}.json", data)
