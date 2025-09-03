@@ -1,7 +1,7 @@
 from pathlib import Path
 import time
 from quiz import fetch_quiz_results
-from utils import write_json, get_current_date
+from utils import read_json, write_json, get_current_date
 import sys
 import io
 
@@ -23,6 +23,12 @@ while not OK:
         sys.stdout.flush()
         write_json(PATH / "history" / f"{today}.json", data)
         print(f"Saved to history/{today}.json")
+        sys.stdout.flush()
+        data_list = read_json(PATH / "history" / "index.json")
+        data_list["time"] = time.time()
+        data_list["data"][today] = f"/history/{today}.json"
+        write_json(PATH / "history" / "index.json", data_list)
+        print("Successfully update history/index.json")
         sys.stdout.flush()
         OK = True
     except Exception as e:
