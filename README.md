@@ -1,23 +1,23 @@
-# 项目使用指南
+## 项目使用指南
 
-## Web API
+### Web API
 
-### 获取历史题目数据
+#### 获取历史题目数据
 `/history/{YY-MM-DD}.json`
 
 eg: [/history/2025-09-01.json](history/2025-09-01.json)
 
-### 获取今日题目数据
+#### 获取今日题目数据
 [`/current.json`](current.json)
 
-### 获取数据列表
+#### 获取数据列表
 查看所有数据及其对应的URL
 
 [`/history/index.json`](history/index.json)
 
-## 数据结构
+### 数据结构
 
-### 题目数据结构
+#### 题目数据结构
 ```json
 {
   "date": "2025-08-19", // 题目日期
@@ -55,7 +55,7 @@ eg: [/history/2025-09-01.json](history/2025-09-01.json)
 }
 ```
 
-### 数据列表结构
+#### 数据列表结构
 ```json
 {
     "time": "1756906621", // 最后更新时间戳
@@ -70,5 +70,5 @@ eg: [/history/2025-09-01.json](history/2025-09-01.json)
 }
 ```
 
-## 关于 Bing Daily Quiz Headimg
+### 关于 Bing Daily Quiz Headimg
 每日题目的配图是Bing每日图片以`3:1`的比例裁剪出来的(尺寸`648x215`), 本项目没有提供此项数据，请自行获取
