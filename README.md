@@ -1,8 +1,4 @@
-# Bing Homepage Quiz 数据储存库
-
-本项目用于每日自动获取并储存题目数据
-
-> Action 会在北京时间零点至一点之间自动运行以及时获取数据，并确保昨日题目正确率被正确统计
+# 项目使用指南
 
 ## Web API
 
@@ -76,6 +72,3 @@ eg: [/history/2025-09-01.json](history/2025-09-01.json)
 
 ## 关于 Bing Daily Quiz Headimg
 每日题目的配图是Bing每日图片以`3:1`的比例裁剪出来的(尺寸`648x215`), 本项目没有提供此项数据，请自行获取
-
-你可以在此获取 Bing 每日图片
-* [https://bing.znj.me/#/pc](https://bing.znj.me/#/pc)
