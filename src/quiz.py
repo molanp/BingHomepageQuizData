@@ -34,7 +34,10 @@ def fetch_quiz_results():
 
 # TODO Rename this here and in `fetch_quiz_results`
 def get_quiz(page: ChromiumPage, i: int):
-    question = page.ele(f"#wk_question_text{i}").text
+    try:
+        question = page.ele(f"#wk_question_text{i}").text
+    except Exception as e:
+        raise ValueError(str(page.html) from e
     print("Sucessfully fetched question")
     sys.stdout.flush()
     record = requests.post(
