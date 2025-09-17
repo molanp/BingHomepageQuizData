@@ -24,12 +24,12 @@ def fetch_quiz_results():
     )
     print("Current URL: ", page.url)
     sys.stdout.flush()
-    page.save(Path(__file__).parent.parent / "snapshot", f"{get_current_date()}.pdf", as_pdf=True)
-    print("SUCCESS to save snapshot")
-    sys.stdout.flush()
     answers = []
     for i in range(3):
-        d = get_quiz(page, i)
+        try:
+            d = get_quiz(page, i)
+        except Exception as e:
+            raise ValueError(str(page.html)) from e
         answers.append(d[0])
         page = d[1]
     page.close()
