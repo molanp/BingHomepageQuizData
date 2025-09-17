@@ -10,7 +10,7 @@ jobs:
     runs-on: windows-latest
     env:
       LANG: zh_CN.UTF-8
-      LCALL: zhCN.UTF-8
+      LCALL: zh_CN.UTF-8
       PYTHONUNBUFFERED: 1
     permissions:
       contents: write
