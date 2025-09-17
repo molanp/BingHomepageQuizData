@@ -4,6 +4,7 @@ import os
 from pathlib import Path
 import sys
 from DrissionPage import ChromiumOptions, ChromiumPage
+from utils import get_current_date
 import re
 import time
 import requests
@@ -23,6 +24,9 @@ def fetch_quiz_results():
     )
     print("Current URL: ", page.url)
     sys.stdout.flush()
+    page.save(Path(__file__).parent.parent / "snapshot", f"{get_current_date()}.pdf", as_pdf=True)
+    print("SUCCESS to save snapshot")
+    sys.stdout.flush()
     answers = []
     for i in range(3):
         d = get_quiz(page, i)
@@ -34,10 +38,7 @@ def fetch_quiz_results():
 
 # TODO Rename this here and in `fetch_quiz_results`
 def get_quiz(page: ChromiumPage, i: int):
-    try:
-        question = page.ele(f"#wk_question_text{i}").text
-    except Exception as e:
-        raise ValueError(str(page.html) from e
+    question = page.ele(f"#wk_question_text{i}").text
     print("Sucessfully fetched question")
     sys.stdout.flush()
     record = requests.post(
