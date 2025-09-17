@@ -2,8 +2,12 @@ name: Daily Quiz
 
 on:
   schedule:
-    # 每天北京时间 00:12 (UTC+8)，对应 UTC 16:12
-    - cron: "12 16 * * *"
+    - cron: "12 16 * * *"  # 北京时间 00:12
+    - cron: "7 22 * * *"   # 北京时间 06:07
+    - cron: "19 1 * * *"   # 北京时间 09:19
+    - cron: "33 4 * * *"   # 北京时间 12:33
+    - cron: "21 10 * * *"  # 北京时间 18:21
+    - cron: "44 13 * * *"  # 北京时间 21:44
   workflow_dispatch:
 
 jobs:
@@ -11,7 +15,7 @@ jobs:
     runs-on: windows-latest
     env:
       LANG: zh_CN.UTF-8
-      LC_ALL: zh_CN.UTF-8
+      LCALL: zhCN.UTF-8
       PYTHONUNBUFFERED: 1
     permissions:
       contents: write
@@ -43,6 +47,16 @@ jobs:
         if: steps.cache-playwright.outputs.cache-hit != 'true'
         run: |
           python -m playwright install
+
+      - name: Check if today's quiz already committed
+        run: |
+          $beijingDate = (Get-Date).ToUniversalTime().AddHours(8).ToString('yyyy-MM-dd')
+          git fetch
+          $alreadyCommitted = git log origin/main --oneline | Select-String "Update quiz data $beijingDate"
+          if ($alreadyCommitted) {
+            Write-Host "✅ 已提交过今日数据，跳过执行"
+            exit 0
+          }
 
       - name: Run daily quiz
         run: |
