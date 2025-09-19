@@ -39,4 +39,4 @@ while not OK:
         print(f"{retry} Fail: {type(e)} {e}")
         sys.stdout.flush()
         retry += 1
-        time.sleep(60)
+        time.sleep(180)

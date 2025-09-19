@@ -29,7 +29,9 @@ def fetch_quiz_results():
         try:
             d = get_quiz(page, i)
         except Exception as e:
-            raise ValueError(str(page.html)) from e
+            print(page.html)
+            sys.stdout.flush()
+            raise e
         answers.append(d[0])
         page = d[1]
     page.close()
