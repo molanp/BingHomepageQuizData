@@ -4,7 +4,6 @@ import os
 from pathlib import Path
 import sys
 from DrissionPage import ChromiumOptions, ChromiumPage
-from utils import get_current_date
 import re
 import time
 import requests

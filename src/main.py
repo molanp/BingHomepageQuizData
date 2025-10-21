@@ -1,4 +1,5 @@
 from pathlib import Path
+import random
 import time
 from quiz import fetch_quiz_results
 from utils import read_json, write_json, get_current_date
@@ -12,6 +13,10 @@ OK = False
 retry = 0
 
 while not OK:
+    s = random.randint(5, 160)
+    print(f"随机睡眠 {s}s....")
+    sys.stdout.flush()
+    time.sleep(s)
     try:
         print(f"{retry}:Fetching quiz results...")
         sys.stdout.flush()
@@ -39,4 +44,4 @@ while not OK:
         print(f"{retry} Fail: {type(e)} {e}")
         sys.stdout.flush()
         retry += 1
-        time.sleep(180)
+        time.sleep(random.randint(5, 130))
