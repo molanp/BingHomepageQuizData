@@ -13,7 +13,7 @@ OK = False
 retry = 0
 
 while not OK:
-    s = random.randint(5, 160)
+    s = random.randint(5, 20)
     print(f"随机睡眠 {s}s....")
     sys.stdout.flush()
     time.sleep(s)
@@ -44,4 +44,4 @@ while not OK:
         print(f"{retry} Fail: {type(e)} {e}")
         sys.stdout.flush()
         retry += 1
-        time.sleep(random.randint(5, 130))
+        time.sleep(random.randint(5, 30))
