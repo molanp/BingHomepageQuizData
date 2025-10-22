@@ -42,6 +42,8 @@ def get_quiz(page: ChromiumPage, i: int):
     try:
         question = page.ele(f"#wk_question_text{i}").text
     except Exception:
+        print("尝试使用第二种方案获取题目内容...")
+        sys.stdout.flush()
         question = page.ele(".btq_quesLrge").text
     print("Sucessfully fetched question")
     sys.stdout.flush()
@@ -57,12 +59,11 @@ def get_quiz(page: ChromiumPage, i: int):
     choices = record.json()["TotalQuestionVotesCount"]
     print(f"Successful to get choices, preview: {choices}")
     sys.stdout.flush()
-    with contextlib.suppress(RuntimeError):
+    with contextlib.suppress(Exception):
         try:
             t = page.ele(f"#questionOptionChoice{i}0").click.for_new_tab()  # type: ignore
         except Exception:
-            rows = page.ele(".btq_opts")
-            t = rows.ele(".btq_opt").click.for_new_tab() # type: ignore
+            t = page.ele(".btq_opt").click.for_new_tab() # type: ignore
         page.get(t.url)
         t.close()
     if e := page.ele(".wk_correctAns"):
