@@ -39,12 +39,28 @@ def fetch_quiz_results():
 
 # TODO Rename this here and in `fetch_quiz_results`
 def get_quiz(page: ChromiumPage, i: int):
+    print("Current URL: ", page.url)
     try:
         question = page.ele(f"#wk_question_text{i}").text
     except Exception:
         print("尝试使用第二种方案获取题目内容...")
         sys.stdout.flush()
-        question = page.ele(".btq_quesLrge").text
+        raw = page.html
+        # 提取问题：QuizQuestionPane.init 的第三个参数是问题文本
+        question_match = re.search(r'QuizQuestionPane\.init\([^,]+,\s*[^,]+,\s*"([^"]+)"', raw)
+        question = question_match.group(1) if question_match else None
+        # 提取所有选项：从 choices 数组中提取 isCorrect 和 text
+        choice_pattern = re.compile(r'isCorrect:\s*"(\w+)",\s*text:\s*"([^"]+)"')
+        matches = choice_pattern.findall(js_text)
+    
+        options = [text for _, text in matches]
+        correct_answer = next((text for correct, text in matches if correct == "true"), None)
+    
+        print("js,extra_preview: "{
+            "question": question,
+            "options": options,
+            "correct_answer": correct_answer
+        })
     print("Sucessfully fetched question")
     sys.stdout.flush()
     record = requests.post(

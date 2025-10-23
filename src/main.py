@@ -37,7 +37,7 @@ while not OK:
         sys.stdout.flush()
         OK = True
     except Exception as e:
-        if retry >= 5:
+        if retry >= 2:
             print("Quiz failed")
             sys.stdout.flush()
             raise e
