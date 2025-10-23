@@ -56,7 +56,7 @@ def get_quiz(page: ChromiumPage, i: int):
         options = [text for _, text in matches]
         correct_answer = next((text for correct, text in matches if correct == "true"), None)
     
-        print("js,extra_preview: "{
+        print("js,extra_preview: ", {
             "question": question,
             "options": options,
             "correct_answer": correct_answer
