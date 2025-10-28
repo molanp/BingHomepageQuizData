@@ -24,10 +24,12 @@ def fetch_quiz_results():
     print("Current URL: ", page.url)
     sys.stdout.flush()
     answers = []
-    for i in range(3):
+    for i in range(2):
         try:
             d = get_quiz(page, i)
         except Exception as e:
+            print("###########################")
+            print(e)
             print(page.html)
             sys.stdout.flush()
             raise e
@@ -103,11 +105,12 @@ def get_quiz(page: ChromiumPage, i: int):
     print("Answer:", answer)
     sys.stdout.flush()
     if i < 2:
-        time.sleep(0.5)
+        time.sleep(2)
         try:
             page.ele(f"#nextQuestionbtn{i}").click()
         except Exception:
-            page.ele(".btq_nxtQues").click()
+            page.ele("tag:button@title=下一个").click()
+        print("进入下一道题目...")
     return {
         "question": question,
         "answer": answer,
