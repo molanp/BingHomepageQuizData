@@ -104,7 +104,10 @@ def get_quiz(page: ChromiumPage, i: int):
     sys.stdout.flush()
     if i < 2:
         time.sleep(0.5)
-        page.ele(f"#nextQuestionbtn{i}").click()
+        try:
+            page.ele(f"#nextQuestionbtn{i}").click()
+        except Exception:
+            page.ele(".btq_nxtQues").click()
     return {
         "question": question,
         "answer": answer,
