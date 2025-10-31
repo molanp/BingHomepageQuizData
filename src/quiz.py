@@ -21,7 +21,6 @@ def fetch_quiz_results():
     page.get(
         "https://www.bing.com/search?q=bing+homepage+quiz&form=ML2BF1&OCID=ML2BF1&mkt=zh-CN"
     )
-    print("Current URL: ", page.url)
     sys.stdout.flush()
     answers = []
     for i in range(3):
@@ -41,7 +40,7 @@ def fetch_quiz_results():
 
 # TODO Rename this here and in `fetch_quiz_results`
 def get_quiz(page: ChromiumPage, i: int):
-    print("Current URL: ", page.url)
+    print("Before URL: ", page.url)
     try:
         question = page.ele(f"#wk_question_text{i}").text
     except Exception:
@@ -100,6 +99,7 @@ def get_quiz(page: ChromiumPage, i: int):
         answer = page.ele(".wk_choiceMaxWidthAns").text
 
     print(f"-----------------Topic {i}-----------------")
+    print("Current URL: ", page.url)
     print("Question:", question)
     print("Choices:", choices)
     print("Answer:", answer)
