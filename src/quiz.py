@@ -42,34 +42,7 @@ def fetch_quiz_results():
 # TODO Rename this here and in `fetch_quiz_results`
 def get_quiz(page: ChromiumPage, i: int):
     print("Current URL: ", page.url)
-    try:
-        question = page.ele(f"#wk_question_text{i}").text
-    except Exception:
-        print("尝试使用第二种方案获取题目内容...")
-        sys.stdout.flush()
-        raw = page.html
-        # 提取问题：QuizQuestionPane.init 的第三个参数是问题文本
-        question_match = re.search(
-            r'QuizQuestionPane\.init\([^,]+,\s*[^,]+,\s*"([^"]+)"', raw
-        )
-        question = question_match.group(1) if question_match else None
-        # 提取所有选项：从 choices 数组中提取 isCorrect 和 text
-        choice_pattern = re.compile(r'isCorrect:\s*"(\w+)",\s*text:\s*"([^"]+)"')
-        matches = choice_pattern.findall(raw)
-
-        options = [text for _, text in matches]
-        correct_answer = next(
-            (text for correct, text in matches if correct == "true"), None
-        )
-
-        print(
-            "js,extra_preview: ",
-            {
-                "question": question,
-                "options": options,
-                "correct_answer": correct_answer,
-            },
-        )
+    question = page.ele(f"#wk_question_text{i}").text
     print("Sucessfully fetched question")
     sys.stdout.flush()
     record = requests.post(
@@ -85,10 +58,7 @@ def get_quiz(page: ChromiumPage, i: int):
     print(f"Successful to get choices, preview: {choices}")
     sys.stdout.flush()
     with contextlib.suppress(Exception):
-        try:
-            t = page.ele(f"#questionOptionChoice{i}0").click.for_new_tab()  # type: ignore
-        except Exception:
-            t = page.ele(".btq_opt").click.for_new_tab()  # type: ignore
+        t = page.ele(f"#questionOptionChoice{i}0").click.for_new_tab()  # type: ignore
         page.get(t.url)
         t.close()
     if e := page.ele(".wk_correctAns"):
@@ -105,11 +75,8 @@ def get_quiz(page: ChromiumPage, i: int):
     print("Answer:", answer)
     sys.stdout.flush()
     if i < 2:
-        time.sleep(2)
-        try:
-            page.ele(f"#nextQuestionbtn{i}").click()
-        except Exception:
-            page.ele("tag:button@title=下一个").click()
+        time.sleep(0.5)
+        page.ele(f"#nextQuestionbtn{i}").click()
         print("进入下一道题目...")
     return {
         "question": question,
