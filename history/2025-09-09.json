@@ -1,0 +1,39 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-09-09",
+    "result": [
+        {
+            "question": "您如何称呼欧亚红松鼠的巢穴？",
+            "answer": "德雷",
+            "choices": {
+                "德雷": 8355,
+                "树洞": 7132,
+                "洞穴": 1573,
+                " 德雷": 1,
+                "德雷  ": 2,
+                " 洞穴": 1
+            }
+        },
+        {
+            "question": "欧亚红松鼠的主要栖息地是什么？",
+            "answer": "温带森林",
+            "choices": {
+                "温带森林": 11464,
+                "草原": 1668,
+                "沙漠": 597,
+                " 温带森林": 2
+            }
+        },
+        {
+            "question": "以下哪种是欧亚红松鼠的常见食物？",
+            "answer": "种子",
+            "choices": {
+                "种子": 8100,
+                "昆虫": 2434,
+                "谷物": 3070,
+                " 种子": 1,
+                " 昆虫": 1
+            }
+        }
+    ]
+}

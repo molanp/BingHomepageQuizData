@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-08-23",
+    "result": [
+        {
+            "question": "在中国农历中，哪种气候现象是处暑节气的特点？",
+            "answer": "夏季酷热的消退",
+            "choices": {
+                "菊花的盛开": 1642,
+                "初雪": 989,
+                "夏季酷热的消退": 12236
+            }
+        },
+        {
+            "question": "九寨沟风景名胜区内，哪个瀑布被称为中国最大的洞穴瀑布？",
+            "answer": "诺日朗瀑布",
+            "choices": {
+                "诺日朗瀑布": 3822,
+                "黄果树瀑布": 5517,
+                "天目水瀑布": 2764
+            }
+        },
+        {
+            "question": "“诺日朗”在藏语中是什么意思，反映了瀑布的文化意义？",
+            "answer": "伟岸高大",
+            "choices": {
+                "山之精神": 2112,
+                "伟岸高大": 4789,
+                "水之神": 4849
+            }
+        }
+    ]
+}

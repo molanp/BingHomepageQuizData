@@ -1,0 +1,35 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-10-28",
+    "result": [
+        {
+            "question": "特普利采主要与哪种自然特征相关？",
+            "answer": "岩石构造",
+            "choices": {
+                "岩石构造": 11521,
+                "沙丘": 2400,
+                "湖泊": 537,
+                " 沙丘": 1,
+                " 岩石构造": 2
+            }
+        },
+        {
+            "question": "哪种活动是特普利采游客常参与的？",
+            "answer": "徒步旅行",
+            "choices": {
+                "徒步旅行": 10387,
+                "钓鱼": 727,
+                "航行": 1050
+            }
+        },
+        {
+            "question": "是什么事件揭示了特普利采岩镇的砂岩地貌？",
+            "answer": "一场大火",
+            "choices": {
+                "地震": 3615,
+                "一场大火": 3363,
+                "火山喷发": 5283
+            }
+        }
+    ]
+}

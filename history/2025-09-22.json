@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-09-22",
+    "result": [
+        {
+            "question": "随着9月的到来，白杨树的叶子会呈现哪种颜色？",
+            "answer": "鲜艳的黄色",
+            "choices": {
+                "鲜嫩的绿色": 388,
+                "鲜艳的黄色": 1815,
+                "干枯的棕色": 199
+            }
+        },
+        {
+            "question": "鱼湖国家森林座落在哪个州？",
+            "answer": "佛罗里达州",
+            "choices": {
+                "佛罗里达州": 1355,
+                "华盛顿州": 459,
+                "犹他州": 1273
+            }
+        },
+        {
+            "question": "潘多树林指的鱼湖国家森林中的？",
+            "answer": "一片颤杨克隆群落",
+            "choices": {
+                "一片灌木丛": 485,
+                "一片颤杨克隆群落": 1674,
+                "一片柳树群落": 777
+            }
+        }
+    ]
+}

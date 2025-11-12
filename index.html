@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bing 每日问答题库 | AwkChan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="是题库喵，好多趣味题目鸭">
+  <meta name="keywords" content="Quiz, 每日问答, API, 题库">
+  <meta name="author" content="molanp">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#39c5bb">
+  <link href="//unpkg.com/prismjs@1.29.0/themes/prism.css" rel="stylesheet" />
+  <script src="//unpkg.com/prismjs@1.29.0/prism.js"></script>
+  <script src="//unpkg.com/prismjs@1.29.0/components/prism-json.min.js"></script>
+  <!-- Normalize.css -->
+  <link rel="stylesheet" href="//unpkg.com/normalize.css@8.0.1/normalize.css" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <h1>📘 Bing 每日问答题库</h1>
+  <section>
+    <h2>📖 项目简介</h2>
+    <p>本项目提供 Daily Quiz ，支持在线调用、历史查询与互动答题喵</p>
+    <p>项目地址：<a href="//github.com/molanp/BingHomepageQuizData" target="_blank">molanp/BingHomepageQuizData</a></p>
+    <p class="answer-info">
+      由于一些原因，我们无法提供<code>2025-09-15</code>的题目数据，如您有相关信息，请提供给我们
+    </p>
+  </section>
+  <section>
+    <h2>🔌 接口说明</h2>
+    <ul>
+      <li><strong>GET /current.json</strong>：获取今日题目</li>
+      <li><strong>GET /history/index.json</strong>：获取题目列表索引</li>
+      <li><strong>GET /history/yyyy-mm-dd.json</strong>：获取指定日期题目</li>
+    </ul>
+  </section>
+  <section>
+    <h2>📅 今日题目</h2>
+    <button onclick="callApi('/current.json', 'current')">查看</button>
+    <pre><code id="current" class="language-json">点击按钮查看结果</code></pre>
+  </section>
+  <section>
+    <h2>🔍 查询指定日期</h2>
+    <input type="date" id="dateInput" />
+    <button onclick="callDateApi()">调用</button>
+    <pre><code id="dateResult" class="language-json">选择日期并点击调用</code></pre>
+  </section>
+  <section>
+    <h2>🧠 在线答题</h2>
+    <input type="date" id="quizDateInput" />
+    <button onclick="loadQuizUnified()">开始</button>
+    <div id="quizContainer"></div>
+  </section>
+  <script src="assets/script.js"></script>
+</body>
+</html>

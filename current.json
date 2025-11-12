@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-11-12",
+    "result": [
+        {
+            "question": "古罗马设计中斗兽场的建筑意义是什么？",
+            "answer": "这是一座完全独立的结构。",
+            "choices": {
+                "它被建在山坡上以提供支撑。": 116,
+                "这是一座完全独立的结构。": 192,
+                "它完全由木材建造而成。": 23
+            }
+        },
+        {
+            "question": "哪位皇帝下令修建了罗马斗兽场？",
+            "answer": "韦斯帕先",
+            "choices": {
+                "韦斯帕先": 84,
+                "尼禄": 111,
+                "提图斯": 82
+            }
+        },
+        {
+            "question": "罗马斗兽场主要以哪种建筑特征闻名？",
+            "answer": "圆形结构",
+            "choices": {
+                "哥特式拱门": 47,
+                "圆形结构": 146,
+                "多立克柱式": 73
+            }
+        }
+    ]
+}

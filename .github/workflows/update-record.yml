@@ -1,0 +1,75 @@
+name: Update Record
+
+on:
+  schedule:
+    # 每天北京时间 00:01 (UTC+8)，对应 UTC 16:01
+    - cron: "1 16 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-record:
+    runs-on: windows-latest
+    env:
+      LANG: zh_CN.UTF-8
+      LC_ALL: zh_CN.UTF-8
+      PYTHONUNBUFFERED: 1
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull 'code' branch root into workspace/src
+        shell: pwsh
+        run: |
+          git fetch origin code
+
+          # ensure src exists and is empty
+          if (Test-Path src) {
+            Remove-Item -Recurse -Force src\* -ErrorAction SilentlyContinue
+          } else {
+            New-Item -ItemType Directory -Path src | Out-Null
+          }
+
+          # Preferred: checkout branch root into src working tree
+          try {
+            git --work-tree=src checkout origin/code -- .
+            Write-Host "Checked out origin/code (root) into src/"
+          } catch {
+            Write-Host "git checkout --work-tree failed: $_. Falling back to git archive extraction."
+
+            # Fallback: use git archive -> tar to extract branch root into src
+            try {
+              git archive origin/code | tar -x -C src
+              Write-Host "Extracted origin/code root into src/ via git archive"
+            } catch {
+              Write-Host "Both methods failed: $_"
+              exit 1
+            }
+          }
+
+      - name: Set up Python
+        id: setup_python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install pytz requests
+
+      - name: Run update record
+        run: |
+          python -u src/update.py
+
+      - name: Commit and push changes
+        run: |
+          $beijingDate = (Get-Date).ToUniversalTime().AddHours(8).AddDays(-1).ToString('yyyy-MM-dd')
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add current.json history/
+          git commit -m "Update record data $beijingDate" || echo "No changes to commit"
+          git push

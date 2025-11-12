@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-10-22",
+    "result": [
+        {
+            "question": "保加利亚的显著地理特征是哪个山脉？",
+            "answer": "罗多彼山脉",
+            "choices": {
+                "阿尔卑斯山": 1754,
+                "喀尔巴阡山脉": 1794,
+                "罗多彼山脉": 2941
+            }
+        },
+        {
+            "question": "哪条河流穿过保加利亚并因其历史意义而著名？",
+            "answer": "多瑙河",
+            "choices": {
+                "多瑙河": 2821,
+                "泰晤士河": 1330,
+                "塞纳河": 1606
+            }
+        },
+        {
+            "question": "保加利亚的首都是哪座城市？",
+            "answer": "索非亚",
+            "choices": {
+                "瓦尔纳": 1347,
+                "普罗夫迪夫": 1841,
+                "索非亚": 2432
+            }
+        }
+    ]
+}

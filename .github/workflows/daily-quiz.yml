@@ -1,0 +1,87 @@
+name: Daily Quiz
+
+on:
+  schedule:
+    - cron: "40 16 * * *"  # 北京时间 00:40
+  workflow_dispatch:
+
+jobs:
+  run-quiz:
+    runs-on: windows-latest
+    env:
+      LANG: zh_CN.UTF-8
+      LCALL: zh_CN.UTF-8
+      PYTHONUNBUFFERED: 1
+      PYTHONIOENCODING: utf-8
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull 'code' branch root into workspace/src
+        shell: pwsh
+        run: |
+          git fetch origin code
+
+          # ensure src exists and is empty
+          if (Test-Path src) {
+            Remove-Item -Recurse -Force src\* -ErrorAction SilentlyContinue
+          } else {
+            New-Item -ItemType Directory -Path src | Out-Null
+          }
+
+          # Preferred: checkout branch root into src working tree
+          try {
+            git --work-tree=src checkout origin/code -- .
+            Write-Host "Checked out origin/code (root) into src/"
+          } catch {
+            Write-Host "git checkout --work-tree failed: $_. Falling back to git archive extraction."
+
+            # Fallback: use git archive -> tar to extract branch root into src
+            try {
+              git archive origin/code | tar -x -C src
+              Write-Host "Extracted origin/code root into src/ via git archive"
+            } catch {
+              Write-Host "Both methods failed: $_"
+              exit 1
+            }
+          }
+
+      - name: Set up Python
+        id: setup_python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Cache Playwright browsers
+        id: cache-playwright
+        uses: actions/cache@v4
+        with:
+          path: C:\Users\runneradmin\AppData\Local\ms-playwright
+          key: playwright-${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}
+
+      - name: Install Playwright browsers
+        if: steps.cache-playwright.outputs.cache-hit != 'true'
+        run: |
+          python -m playwright install
+
+      - name: Run daily quiz
+        run: |
+          python -u src/main.py
+
+      - name: Commit and push changes
+        run: |
+          $beijingDate = (Get-Date).ToUniversalTime().AddHours(8).ToString('yyyy-MM-dd')
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add current.json history/
+          git commit -m "Update quiz data $beijingDate" || echo "No changes to commit"
+          git push

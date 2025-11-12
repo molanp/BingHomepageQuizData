@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-10-16",
+    "result": [
+        {
+            "question": "欧亚猞猁外貌的一个显著特征是什么？",
+            "answer": "长而蓬松的耳朵",
+            "choices": {
+                "长而蓬松的耳朵": 3010,
+                "条纹毛皮": 1177,
+                "明亮的蓝色眼睛": 281
+            }
+        },
+        {
+            "question": "欧亚猞猁猁最常见于哪种栖息地？",
+            "answer": "北方森林",
+            "choices": {
+                "热带雨林": 1098,
+                "北方森林": 2348,
+                "草原": 1699
+            }
+        },
+        {
+            "question": "欧亚猞猁的主要食物是什么？",
+            "answer": "小型哺乳动物",
+            "choices": {
+                "小型哺乳动物": 3478,
+                "大型食草动物": 466,
+                "鸟类": 566
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-10-12",
+    "result": [
+        {
+            "question": "萨拉纳克湖以哪项休闲活动而闻名？",
+            "answer": "划船、钓鱼和野餐",
+            "choices": {
+                "划船、钓鱼和野餐": 2486,
+                "骑行": 236,
+                "冲浪": 126
+            }
+        },
+        {
+            "question": "萨拉纳克湖哪处自然景观最引人注目？",
+            "answer": "湖泊",
+            "choices": {
+                "沙漠": 197,
+                "湖泊": 2585,
+                "洞穴": 178
+            }
+        },
+        {
+            "question": "萨拉纳克湖位于美国的哪个州？",
+            "answer": "纽约",
+            "choices": {
+                "马萨诸塞州": 1042,
+                "佛蒙特州": 948,
+                "纽约": 1048
+            }
+        }
+    ]
+}

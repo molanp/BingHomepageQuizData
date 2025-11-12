@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-09-03",
+    "result": [
+        {
+            "question": "美国于1964年通过的《荒野法案》的主要目标是什么？",
+            "answer": "定义并保护荒野地区",
+            "choices": {
+                "定义并保护荒野地区": 4816,
+                "促进城市发展": 1427,
+                "扩大工业区": 523
+            }
+        },
+        {
+            "question": "美国的《荒野法案》中具体提到的是哪个荒野地区？",
+            "answer": "边界水域独木舟区域荒野",
+            "choices": {
+                "大雾山荒野": 1139,
+                "边界水域独木舟区域荒野": 2852,
+                "约塞米蒂荒野": 2219
+            }
+        },
+        {
+            "question": "在边界水域独木舟区荒野中可以发现哪些物种？",
+            "answer": "驼鹿",
+            "choices": {
+                "驼鹿": 4033,
+                "海豚": 1085,
+                "猎豹": 919
+            }
+        }
+    ]
+}

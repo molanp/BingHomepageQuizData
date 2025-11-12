@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-11-10",
+    "result": [
+        {
+            "question": "草原犬鼠群落中主要发现的动物物种是什么？",
+            "answer": "黑尾土拨鼠",
+            "choices": {
+                "麋鹿": 99,
+                "野牛": 280,
+                "黑尾土拨鼠": 1956
+            }
+        },
+        {
+            "question": "什么类型的生态系统最能描述黑尾土拨鼠的聚居地？",
+            "answer": "草原",
+            "choices": {
+                "森林": 195,
+                "草原": 2579,
+                "沙漠": 395
+            }
+        },
+        {
+            "question": "黑尾土拨鼠在其生态系统中扮演什么角色？",
+            "answer": "生态系统工程师",
+            "choices": {
+                "生态系统工程师": 2823,
+                "掠食者": 271,
+                "护士": 226
+            }
+        }
+    ]
+}

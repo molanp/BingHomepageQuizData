@@ -1,0 +1,35 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-09-23",
+    "result": [
+        {
+            "question": "“秋分”一词指的是哪种天文现象？",
+            "answer": "昼夜平分",
+            "choices": {
+                "昼夜平分": 11819,
+                "一年中最长的一天": 1828,
+                "一年中最短的一天": 1097
+            }
+        },
+        {
+            "question": "秋分发生在哪个季节？",
+            "answer": "秋天",
+            "choices": {
+                "秋天": 10240,
+                "春天": 564,
+                "夏季": 941,
+                " 春天": 1
+            }
+        },
+        {
+            "question": "哪个文化庆祝活动与秋分密切相关？",
+            "answer": "丰收节",
+            "choices": {
+                "丰收节": 10821,
+                "春节": 381,
+                "冬至": 341,
+                " 冬至": 1
+            }
+        }
+    ]
+}

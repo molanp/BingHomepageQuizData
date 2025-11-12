@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-09-21",
+    "result": [
+        {
+            "question": "海獭的主要栖息地是什么？",
+            "answer": "沿海水域",
+            "choices": {
+                "森林": 218,
+                "沙漠": 78,
+                "沿海水域": 2771
+            }
+        },
+        {
+            "question": "以下哪项对生活在冰川地区的海獭构成威胁？",
+            "answer": "栖息地破坏",
+            "choices": {
+                "植被增加": 195,
+                "栖息地破坏": 2388,
+                "高海拔变化": 663
+            }
+        },
+        {
+            "question": "冰川地区海獭主要生活在哪种气候中？",
+            "answer": "北极",
+            "choices": {
+                "温带": 390,
+                "热带": 205,
+                "北极": 2567
+            }
+        }
+    ]
+}

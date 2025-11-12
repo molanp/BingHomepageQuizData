@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-09-20",
+    "result": [
+        {
+            "question": "《啤酒纯净法》（Reinheitsgebot）对慕尼黑啤酒节的意义是什么？",
+            "answer": "它规范了啤酒的纯度",
+            "choices": {
+                "它规范了啤酒的纯度": 9835,
+                "它定义了音乐节上演奏的音乐": 1363,
+                "它要求提供椒盐卷饼": 1017
+            }
+        },
+        {
+            "question": "在慕尼黑啤酒节上，“Wellenflug”属于哪种类型的游乐设施？",
+            "answer": "一种游乐设施",
+            "choices": {
+                "一个传统的啤酒帐篷": 5576,
+                "一种游乐设施": 3841,
+                "一个手工食品摊位": 1066
+            }
+        },
+        {
+            "question": "每年预计有多少游客参加慕尼黑啤酒节？",
+            "answer": "大约六百万",
+            "choices": {
+                "大约一千万": 3775,
+                "大约六百万": 4544,
+                "大约四百万": 1817
+            }
+        }
+    ]
+}

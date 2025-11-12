@@ -1,0 +1,37 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-09-16",
+    "result": [
+        {
+            "question": "地球大气臭氧层损耗的主要原因是什么？",
+            "answer": "氯氟烃（CFCs）",
+            "choices": {
+                "氯氟烃（CFCs）": 10031,
+                "二氧化碳（CO2）": 4390,
+                "甲烷（CH4）": 1478,
+                " 氯氟烃（CFCs）": 1,
+                " 二氧化碳（CO2）": 1
+            }
+        },
+        {
+            "question": "哪个国际条约是为应对臭氧层损耗而制定的？",
+            "answer": "蒙特利尔议定书",
+            "choices": {
+                "蒙特利尔议定书": 6779,
+                "巴黎协定": 4567,
+                "京都协议": 2246,
+                " 蒙特利尔议定书": 2
+            }
+        },
+        {
+            "question": "臭氧层在地球大气中起到什么作用？",
+            "answer": "吸收有害的紫外线（UV）辐射",
+            "choices": {
+                "吸收有害的紫外线（UV）辐射": 11712,
+                "创建风模式": 532,
+                "捕获温室气体": 923,
+                " 吸收有害的紫外线（UV）辐射": 1
+            }
+        }
+    ]
+}

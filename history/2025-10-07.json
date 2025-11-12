@@ -1,0 +1,34 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-10-07",
+    "result": [
+        {
+            "question": "在里奇韦附近的白杨树林中主要发现的树种是什么？",
+            "answer": "颤抖的白杨",
+            "choices": {
+                "颤抖的白杨": 7250,
+                "松树": 1204,
+                "桦树": 1864,
+                " 颤抖的白杨": 1
+            }
+        },
+        {
+            "question": "颤杨的叶子有什么独特的特点？",
+            "answer": "它们在风中颤抖。",
+            "choices": {
+                "它们在冬季会改变颜色。": 2356,
+                "它们是心形的": 938,
+                "它们在风中颤抖。": 4287
+            }
+        },
+        {
+            "question": "白杨树通常在哪个季节呈现出最鲜艳的色彩变化？",
+            "answer": "秋季",
+            "choices": {
+                "春天": 704,
+                "秋季": 5951,
+                "夏季": 641
+            }
+        }
+    ]
+}

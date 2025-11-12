@@ -1,0 +1,36 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-10-23",
+    "result": [
+        {
+            "question": "雪豹的主要栖息地是什么？",
+            "answer": "寒冷的山区",
+            "choices": {
+                "寒冷的山区": 4206,
+                "沙漠": 176,
+                "热带森林": 335,
+                " 寒冷的山区": 2
+            }
+        },
+        {
+            "question": "雪豹的一个显著特征是什么？",
+            "answer": "它们浓密的烟灰色毛皮",
+            "choices": {
+                "它们浓密的烟灰色毛皮": 4241,
+                "它们修长的双腿": 566,
+                "它们修长的耳朵": 389,
+                " 它们浓密的烟灰色毛皮": 1
+            }
+        },
+        {
+            "question": "雪豹主要捕猎以下哪种猎物？",
+            "answer": "山羊",
+            "choices": {
+                "山羊": 3123,
+                "啮齿动物": 1811,
+                "鱼": 268,
+                " 啮齿动物": 1
+            }
+        }
+    ]
+}

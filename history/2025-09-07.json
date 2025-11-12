@@ -1,0 +1,34 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-09-07",
+    "result": [
+        {
+            "question": "哪条河流经格但斯克？",
+            "answer": "莫特拉瓦河",
+            "choices": {
+                "维斯瓦河": 1657,
+                "莫特拉瓦河": 1985,
+                "奥德河": 430
+            }
+        },
+        {
+            "question": "在格但斯克，有哪条以其建筑和历史闻名的著名街道？",
+            "answer": "乌利察·德鲁加",
+            "choices": {
+                "弗热希斯卡街": 1484,
+                "乌利察·德鲁加": 1135,
+                "乌利察&#183;德鲁加": 270,
+                "皇家大街": 902
+            }
+        },
+        {
+            "question": "哪个术语指代格但斯克及其周边城市的联合区域？",
+            "answer": "三联市",
+            "choices": {
+                "三联市": 1755,
+                "城市中心": 833,
+                "大都会": 1028
+            }
+        }
+    ]
+}

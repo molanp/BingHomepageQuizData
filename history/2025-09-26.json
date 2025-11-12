@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-09-26",
+    "result": [
+        {
+            "question": "花栗鼠在秋季表现出哪些显著的行为？",
+            "answer": "冬眠准备",
+            "choices": {
+                "冬眠准备": 2549,
+                "建造大型巢穴": 441,
+                "迁移到较温暖的地区": 632
+            }
+        },
+        {
+            "question": "以下哪项是秋季花栗鼠常见的食物来源？",
+            "answer": "坚果和种子",
+            "choices": {
+                "坚果和种子": 3359,
+                "昆虫": 236,
+                "浆果": 274
+            }
+        },
+        {
+            "question": "随着秋天的临近，花栗鼠会经历哪些显著的身体变化？",
+            "answer": "皮毛加厚",
+            "choices": {
+                "皮毛加厚": 3004,
+                "颜色更改为白色": 619,
+                "规模增长": 240
+            }
+        }
+    ]
+}

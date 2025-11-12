@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-10-24",
+    "result": [
+        {
+            "question": "玛丽皇后号的首航是哪一年？",
+            "answer": "1936年",
+            "choices": {
+                "1936年": 2042,
+                "1938年": 490,
+                "1934年": 1721
+            }
+        },
+        {
+            "question": "第二次世界大战期间，玛丽皇后的主要用途是什么？",
+            "answer": "运兵船",
+            "choices": {
+                "豪华邮轮": 1809,
+                "运兵船": 1889,
+                "货物运输": 944
+            }
+        },
+        {
+            "question": "哪座城市是永久停泊的玛丽皇后号邮轮的所在地？",
+            "answer": "加利福尼亚州长滩",
+            "choices": {
+                "加利福尼亚州长滩": 2846,
+                "迈阿密": 736,
+                "纽约": 880
+            }
+        }
+    ]
+}

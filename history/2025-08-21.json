@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-08-21",
+    "result": [
+        {
+            "question": "与穗䳭通常相关的独特身体特征是什么？",
+            "answer": "独特的白色臀部",
+            "choices": {
+                "明亮的黄色腹部": 2661,
+                "独特的白色臀部": 1364,
+                "显著的白色喉部": 1856
+            }
+        },
+        {
+            "question": "穗䳭通常遵循哪种迁徙模式？",
+            "answer": "从阿拉斯加和加拿大北部到非洲",
+            "choices": {
+                "从阿拉斯加和加拿大北部到非洲": 2831,
+                "从北美洲到中美洲": 1611,
+                "从欧洲到南美洲": 985
+            }
+        },
+        {
+            "question": "穗䳭喜欢什么类型的栖息地？",
+            "answer": "开阔的低植被区域",
+            "choices": {
+                "开阔的低植被区域": 3037,
+                "茂密的森林": 974,
+                "湿地栖息地": 1215
+            }
+        }
+    ]
+}

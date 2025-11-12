@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-10-06",
+    "result": [
+        {
+            "question": "安顺桥以什么显著特色而闻名？",
+            "answer": "其独特的建筑设计",
+            "choices": {
+                "它在贸易中的历史意义": 292,
+                "它俯瞰河流的壮丽景色": 639,
+                "其独特的建筑设计": 954
+            }
+        },
+        {
+            "question": "安顺桥位于哪里？",
+            "answer": "在中国",
+            "choices": {
+                "在比利时": 125,
+                "在中国": 1609,
+                "在巴西": 200
+            }
+        },
+        {
+            "question": "安顺桥是中式廊桥，它的意思是？",
+            "answer": "有楼梯的桥",
+            "choices": {
+                "有廊屋的桥梁": 1517,
+                "有楼梯的桥": 370,
+                "有石头的桥": 151
+            }
+        }
+    ]
+}

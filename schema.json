@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "description": "日期，格式为 YYYY-MM-DD"
+    },
+    "result": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "question": {
+            "type": "string",
+            "description": "问题"
+          },
+          "answer": {
+            "type": "string",
+            "description": "正确答案"
+          },
+          "choices": {
+            "type": "object",
+            "description": "选项列表及其选择人数，一般只有三个选项",
+            "additionalProperties": {
+              "type": "integer"
+            }
+          }
+        },
+        "required": ["question", "answer", "choices"]
+      }
+    }
+  },
+  "required": ["date", "result"]
+}

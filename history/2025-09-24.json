@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025-09-24",
+    "result": [
+        {
+            "question": "熊屋通常被称为什么？",
+            "answer": "魔鬼塔",
+            "choices": {
+                "魔鬼塔": 3829,
+                "花岗岩峰": 1125,
+                "黑麋峰": 1164
+            }
+        },
+        {
+            "question": "熊屋位于美国哪个州？",
+            "answer": "怀俄明州",
+            "choices": {
+                "怀俄明州": 2996,
+                "科罗拉多": 1796,
+                "蒙大拿州": 1133
+            }
+        },
+        {
+            "question": "熊屋与哪种原住民文化意义相关？",
+            "answer": "神圣的灵性圣地",
+            "choices": {
+                "狩猎场": 1301,
+                "讲故事网站": 502,
+                "神圣的灵性圣地": 3927
+            }
+        }
+    ]
+}
