@@ -11,7 +11,7 @@ retry = 0
 
 
 while not OK:
-    sleep_time = random.randint(5, 20)
+    sleep_time = random.randint(5, 10)
     log(f"🕒 随机睡眠 {sleep_time}s...")
     time.sleep(sleep_time)
 

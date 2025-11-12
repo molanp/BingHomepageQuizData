@@ -16,7 +16,7 @@ co = ChromiumOptions()
 co.set_browser_path(chromium_dirs[0] / "chrome-win" / "chrome.exe")
 
 
-def fetch_quiz_results(max_retries=5):
+def fetch_quiz_results(max_retries=3):
     page = ChromiumPage(co)
     page.get(
         "https://www.bing.com/search?q=bing+homepage+quiz&form=ML2BF1&OCID=ML2BF1&mkt=zh-CN"
@@ -63,19 +63,18 @@ def get_quiz(page: ChromiumPage, i: int):
         question = page.ele(f"#wk_question_text{i}").text
         log(f"📝 [HTML模式] 题目: {question}")
 
-        with contextlib.suppress(Exception):
+        try:
             try:
                 t = page.ele(
                     f"#questionOptionChoice{i}0"
                 ).click.for_new_tab()  # pyright: ignore[reportAttributeAccessIssue]
+                url = t.url
             except Exception:
-                t = page.ele(
-                    ".btq_opt"
-                ).click.for_new_tab()  # pyright: ignore[reportAttributeAccessIssue]
-            page.get(t.url)
-            log(f"🖱️ [HTML模式] 随机点击选项跳转: {t.url}")
-
-            t.close()
+                url = page.ele(".acf-button-standard__link").link
+            page.get(url)
+            log(f"🖱️ [HTML模式] 随机点击选项跳转: {url}")
+        except Exception as e:
+            log(f"⚠️ [HTML模式] 随机点击失败: {e}")
 
         answer_raw = page.ele(".wk_correctAns").text
         assert isinstance(answer_raw, str)
