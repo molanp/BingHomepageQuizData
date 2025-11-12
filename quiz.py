@@ -51,9 +51,10 @@ def get_quiz(page: ChromiumPage, i: int):
     log(f"\n🟩========== 开始处理第 {i} 题 ==========")
     log(f"🌐 当前页面 URL: {page.url}")
 
-    with contextlib.suppress(Exception):
+    if theme2 := page.ele(".btq_main"):
+        log("✅ [HTML模式] 找到主题2页面结构，使用 JS 模式解析。")
         log("📄 [页面结构预览] .btq_main HTML:")
-        log(page.ele(".btq_main").inner_html)
+        log(theme2.inner_html)
 
     question = None
     answer = None
@@ -62,19 +63,6 @@ def get_quiz(page: ChromiumPage, i: int):
         log("🔍 [HTML模式] 尝试提取题目...")
         question = page.ele(f"#wk_question_text{i}").text
         log(f"📝 [HTML模式] 题目: {question}")
-
-        try:
-            try:
-                t = page.ele(
-                    f"#questionOptionChoice{i}0"
-                ).click.for_new_tab()  # pyright: ignore[reportAttributeAccessIssue]
-                url = t.url
-            except Exception:
-                url = page.ele(".acf-button-standard__link").link
-            page.get(url)
-            log(f"🖱️ [HTML模式] 随机点击选项跳转: {url}")
-        except Exception as e:
-            log(f"⚠️ [HTML模式] 随机点击失败: {e}")
 
         answer_raw = page.ele(".wk_correctAns").text
         assert isinstance(answer_raw, str)
@@ -135,18 +123,15 @@ def get_quiz(page: ChromiumPage, i: int):
 
     log("🖱️ [模拟点击] 尝试点击第一个选项并跳转...")
 
-    with contextlib.suppress(Exception):
+    try:
         try:
-            t = page.ele(
-                f"#questionOptionChoice{i}0"
-            ).click.for_new_tab()  # pyright: ignore[reportAttributeAccessIssue]
+            url = page.ele(".wk_choicesInstLink").link
         except Exception:
-            t = page.ele(
-                ".btq_opt"
-            ).click.for_new_tab()  # pyright: ignore[reportAttributeAccessIssue]
-        page.get(t.url)
-        t.close()
-        log("🖱️ [模拟点击] 跳转成功")
+            url = page.ele(".acf-button-standard__link").link
+        page.get(url)
+        log(f"🖱️ [模拟点击] 随机点击选项跳转: {url}")
+    except Exception as e:
+        log(f"⚠️ [模拟点击] 随机点击失败: {e}")
 
     log(f"\n🧾 [题目结构预览] 第{i}题")
     log(f"📝 题目: {question}")
