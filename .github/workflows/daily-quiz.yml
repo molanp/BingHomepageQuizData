@@ -59,7 +59,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r src/requirements.txt
 
       - name: Cache Playwright browsers
         id: cache-playwright
@@ -82,6 +82,17 @@ jobs:
           $beijingDate = (Get-Date).ToUniversalTime().AddHours(8).ToString('yyyy-MM-dd')
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add current.json history/
+
+          # 取消所有已暂存的更改，确保不会意外提交拉取的脚本
+          git reset --quiet -- || true
+          # 如果 src 被误暂存，额外取消其暂存（安全措施）
+          git reset --quiet -- src || true
+
+          # 明确只添加这两个路径
+          git add -- current.json history/ || true
+
+          # 可选：查看将要提交的内容（便于调试）
+          git status --porcelain
+
           git commit -m "Update quiz data $beijingDate" || echo "No changes to commit"
           git push
