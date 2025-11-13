@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bing.awkchan.top/sitemaps/sitemap-index.xml
