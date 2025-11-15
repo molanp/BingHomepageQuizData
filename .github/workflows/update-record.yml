@@ -2,8 +2,8 @@ name: Update Record
 
 on:
   schedule:
-    # 每天北京时间 00:01 (UTC+8)，对应 UTC 16:01
-    - cron: "1 16 * * *"
+    # 每天北京时间 00:10
+    - cron: "10 16 * * *"
   workflow_dispatch:
 
 jobs:

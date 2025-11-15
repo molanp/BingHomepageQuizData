@@ -2,7 +2,7 @@ name: Daily Quiz
 
 on:
   schedule:
-    - cron: "40 16 * * *"  # 北京时间 00:40
+    - cron: "1 16 * * *"  # 北京时间 00:1
   workflow_dispatch:
 
 jobs:
