@@ -24,7 +24,6 @@ while not OK:
             "date": today,
             "result": results,
         }
-        print(data)
 
         log("📦 保存结果到 current.json")
         write_json(PATH / "current.json", data)

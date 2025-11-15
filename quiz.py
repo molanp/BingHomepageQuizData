@@ -55,7 +55,7 @@ def get_quiz(page: ChromiumPage, i: int):
         json_str = match[1].replace("\u0026", "&")
         data = json.loads(json_str)
         urls = data.get("ChoiceUrls", [])
-        log("🧪 [JS解析选项链接准备] ChoiceUrls:", urls)
+        # log("🧪 [JS解析选项链接准备] ChoiceUrls:", urls)
         url = urljoin(page.url, urls[0])
         log(f"🖱️ [JS解析选项链接] 获取到第一个选项链接: {url}")
         # page.get(urls)
