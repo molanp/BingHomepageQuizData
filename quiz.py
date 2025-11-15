@@ -2,6 +2,7 @@ import json
 import os
 import re
 import time
+from urllib.parse import urljoin
 import requests
 import contextlib
 from pathlib import Path
@@ -21,14 +22,6 @@ def fetch_quiz_results(max_retries=3):
     page.get(
         "https://www.bing.com/search?q=bing+homepage+quiz&form=ML2BF1&OCID=ML2BF1&mkt=zh-CN"
     )
-
-    if match := re.search(
-        r"var\s+RequeryURLChoice\s*=\s*(\{.*?\});", page.html, re.DOTALL
-    ):
-        json_str = match[1].replace("\u0026", "&")
-        data = json.loads(json_str)
-        urls = data.get("ChoiceUrls", [])
-        log("🧪 [调试] ChoiceUrls:", urls)
 
     answers = []
     for i in range(3):  # 固定处理三道题
@@ -56,6 +49,17 @@ def get_quiz(page: ChromiumPage, i: int):
         log("📄 [页面结构预览] .btq_main HTML:")
         log(theme2.inner_html)
 
+    if match := re.search(
+        r"var\s+RequeryURLChoice\s*=\s*(\{.*?\});", page.html, re.DOTALL
+    ):
+        json_str = match[1].replace("\u0026", "&")
+        data = json.loads(json_str)
+        urls = data.get("ChoiceUrls", [])
+        log("🧪 [JS解析选项链接准备] ChoiceUrls:", urls)
+        url = urljoin(page.url, urls[0])
+        log(f"🖱️ [JS解析选项链接] 获取到第一个选项链接: {url}")
+        # page.get(urls)
+
     question = None
     answer = None
 
@@ -64,7 +68,11 @@ def get_quiz(page: ChromiumPage, i: int):
         question = page.ele(f"#wk_question_text{i}").text
         log(f"📝 [HTML模式] 题目: {question}")
 
-        answer_raw = page.ele(".wk_correctAns").text
+        url = page.ele(".wk_choicesInstLink").link
+        page.get(url)
+        log(f"🖱️ [解析链接] 获取到第一个选项链接: {url}")
+
+        answer_raw = page.ele(f"#ActualCorrectAnswer{i}").text
         assert isinstance(answer_raw, str)
         log(f"📦 [HTML模式] 原始答案文本: {answer_raw}")
 
@@ -110,7 +118,10 @@ def get_quiz(page: ChromiumPage, i: int):
         )
 
         log(f"✅ [JS fallback] 正确答案: {answer}")
-
+        log("🖱️ [解析链接] 尝试获取第一个选项链接并跳转...")
+        url = page.ele(".acf-button-standard__link").link
+        page.get(url)
+        log(f"🖱️ [解析链接] 获取到第一个选项链接: {url}")
     log("📊 [选项投票统计] 请求 funapi 接口...")
 
     record = requests.post(
@@ -120,18 +131,6 @@ def get_quiz(page: ChromiumPage, i: int):
     )
     choices = record.json().get("TotalQuestionVotesCount", {})
     log(f"📊 [选项投票统计] 返回结果: {choices}")
-
-    log("🖱️ [模拟点击] 尝试点击第一个选项并跳转...")
-
-    try:
-        try:
-            url = page.ele(".wk_choicesInstLink").link
-        except Exception:
-            url = page.ele(".acf-button-standard__link").link
-        page.get(url)
-        log(f"🖱️ [模拟点击] 随机点击选项跳转: {url}")
-    except Exception as e:
-        log(f"⚠️ [模拟点击] 随机点击失败: {e}")
 
     log(f"\n🧾 [题目结构预览] 第{i}题")
     log(f"📝 题目: {question}")

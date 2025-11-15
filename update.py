@@ -10,7 +10,7 @@ from utils import get_yesterday_date, read_json, write_json, log
 ROOT = Path(__file__).parent.parent
 HISTORY = ROOT / "history"
 SITEMAPS = ROOT / "sitemaps"
-INDEX_PATH = ROOT / "index.json"
+INDEX_PATH = HISTORY / "index.json"
 BASE_URL = "https://bing.awkchan.top"  # ← 替换为你的域名
 
 # 📂 自动创建目录
