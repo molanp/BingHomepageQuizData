@@ -618,4 +618,10 @@
     <changefreq>never</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://bing.awkchan.top/history/2025-12-01.json</loc>
+    <lastmod>2025-12-01</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
