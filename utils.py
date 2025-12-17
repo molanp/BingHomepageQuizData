@@ -11,7 +11,7 @@ _logger.setLevel(logging.INFO)
 
 if not _logger.handlers:
     handler = logging.StreamHandler(sys.stdout)
-    handler.stream.reconfigure(encoding="utf-8")
+    handler.stream.reconfigure(encoding="utf-8") # pyright: ignore[reportAttributeAccessIssue]
     formatter = logging.Formatter("[%(asctime)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
     handler.setFormatter(formatter)
     _logger.addHandler(handler)
@@ -43,10 +43,10 @@ def write_json(file_path: Path, data: dict):
 def get_current_date():
     beijing_tz = pytz.timezone("Asia/Shanghai")
     beijing_time = datetime.now(beijing_tz)
-    return beijing_time.strftime("%Y-%m-%d")
+    return beijing_time.strftime("%Y/%m/%d")
 
 
 def get_yesterday_date():
     beijing_tz = pytz.timezone("Asia/Shanghai")
     beijing_time = datetime.now(beijing_tz) - timedelta(days=1)
-    return beijing_time.strftime("%Y-%m-%d")
+    return beijing_time.strftime("%Y/%m/%d")

@@ -45,8 +45,8 @@ def get_quiz(page: ChromiumPage, i: int):
     log(f"🌐 当前页面 URL: {page.url}")
 
     if theme2 := page.ele(".btq_main"):
-        log("✅ [HTML模式] 找到主题2页面结构，使用 JS 模式解析。")
-        log("📄 [页面结构预览] .btq_main HTML:")
+        log("✅ [HTML] 找到主题2页面结构，使用 JS 模式解析。")
+        log("📄 [HTML] [页面结构预览] .btq_main HTML:")
         log(theme2.inner_html)
 
     if match := re.search(
@@ -57,32 +57,32 @@ def get_quiz(page: ChromiumPage, i: int):
         urls = data.get("ChoiceUrls", [])
         # log("🧪 [JS解析选项链接准备] ChoiceUrls:", urls)
         url = urljoin(page.url, urls[0])
-        log(f"🖱️ [JS解析选项链接] 获取到第一个选项链接: {url}")
+        log(f"🖱️ [HTML] [JS解析选项链接] 获取到第一个选项链接: {url}")
         # page.get(urls)
 
     question = None
     answer = None
 
     try:
-        log("🔍 [HTML模式] 尝试提取题目...")
+        log("🔍 [HTML] 尝试提取题目...")
         question = page.ele(f"#wk_question_text{i}").text
-        log(f"📝 [HTML模式] 题目: {question}")
+        log(f"📝 [HTML] 题目: {question}")
 
         url = page.ele(".wk_choicesInstLink").link
         page.get(url)
-        log(f"🖱️ [解析链接] 获取到第一个选项链接: {url}")
+        log(f"🖱️ [HTML] [解析链接] 获取到第一个选项链接: {url}")
 
         answer_raw = page.ele(f"#ActualCorrectAnswer{i}").text
         assert isinstance(answer_raw, str)
-        log(f"📦 [HTML模式] 原始答案文本: {answer_raw}")
+        log(f"📦 [HTML] 原始答案文本: {answer_raw}")
 
         match = re.search(r"(.+?)\s*(\d+%)", answer_raw)
         answer = match[1] if match else answer_raw
-        log(f"✅ [HTML模式] 正确答案: {answer}")
+        log(f"✅ [HTML] 正确答案: {answer}")
 
     except Exception as e:
-        log(f"⚠️ [HTML模式] 提取失败: {e}")
-        log("🔁 [JS fallback] 尝试使用 JS 初始化结构提取...")
+        log(f"⚠️ [HTML] 提取失败: {e}")
+        log("🔁 [JavaScript] 尝试使用 JS 初始化结构提取...")
 
         raw = page.html
 
@@ -94,11 +94,11 @@ def get_quiz(page: ChromiumPage, i: int):
         )
         match = pattern.search(raw)
         if not match:
-            raise ValueError(f"❌ [JS fallback] 未找到第{i}题的结构化数据")
+            raise ValueError(f"❌ [JavaScript] 未找到第{i}题的结构化数据")
 
         choices_js_str, question = match.groups()
-        log(f"📝 [JS fallback] 题目: {question}")
-        log(f"📦 [JS fallback] 原始 choices 字符串:\n{choices_js_str}")
+        log(f"📝 [JavaScript] 题目: {question}")
+        log(f"📦 [JavaScript] 原始 choices 字符串:\n{choices_js_str}")
 
         def js_object_to_json(js_text: str) -> str:
             js_text = js_text.strip().rstrip(";")
@@ -106,22 +106,22 @@ def get_quiz(page: ChromiumPage, i: int):
             return js_text
 
         choices_json_str = js_object_to_json(choices_js_str)
-        log(f"🔧 [JS fallback] 转换后的 JSON 字符串:\n{choices_json_str}")
+        log(f"🔧 [JavaScript] 转换后的 JSON 字符串:\n{choices_json_str}")
 
         try:
             choices_data = json.loads(choices_json_str)
         except Exception as e:
-            raise ValueError(f"❌ [JS fallback] JSON解析失败: {e}")
+            raise ValueError(f"❌ [JavaScript] JSON解析失败: {e}")
 
         answer = next(
             (c["text"] for c in choices_data if c["isCorrect"] == "true"), None
         )
 
-        log(f"✅ [JS fallback] 正确答案: {answer}")
-        log("🖱️ [解析链接] 尝试获取第一个选项链接并跳转...")
+        log(f"✅ [JavaScript] 正确答案: {answer}")
+        log("🖱️ [JavaScript] [解析链接] 尝试获取第一个选项链接并跳转...")
         url = page.ele(".acf-button-standard__link").link
         page.get(url)
-        log(f"🖱️ [解析链接] 获取到第一个选项链接: {url}")
+        log(f"🖱️ [JavaScript] [解析链接] 获取到第一个选项链接: {url}")
     log("📊 [选项投票统计] 请求 funapi 接口...")
 
     record = requests.post(
