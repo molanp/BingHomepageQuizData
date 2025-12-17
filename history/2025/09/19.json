@@ -1,0 +1,34 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/09/19",
+    "result": [
+        {
+            "question": "千岛地区有哪些著名的建筑结构？",
+            "answer": "伯特城堡",
+            "choices": {
+                "点燃城堡": 547,
+                "伯特城堡": 1730,
+                "河畔城堡": 1466,
+                "伯特城堡  ": 1
+            }
+        },
+        {
+            "question": "千岛群岛中哪个小岛因其独特的面积而闻名？",
+            "answer": "刚好够住的岛",
+            "choices": {
+                "刚好够住的岛": 1550,
+                "圣劳伦斯岛": 1260,
+                "鹿岛": 1038
+            }
+        },
+        {
+            "question": "千岛群岛位于哪个水道？",
+            "answer": "圣劳伦斯河",
+            "choices": {
+                "安大略湖": 1028,
+                "哈德逊河": 614,
+                "圣劳伦斯河": 2044
+            }
+        }
+    ]
+}

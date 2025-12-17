@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/09/12",
+    "result": [
+        {
+            "question": "飞旋海豚群的一种显著行为是什么？",
+            "answer": "他们在水面上表演杂技旋转",
+            "choices": {
+                "他们可以快速地绕圈游泳": 2705,
+                "他们在水面上表演杂技旋转": 1375,
+                "他们只在深海水域游泳。": 418
+            }
+        },
+        {
+            "question": "飞旋海豚群的主要食物是什么？",
+            "answer": "小鱼和鱿鱼",
+            "choices": {
+                "海藻和巨藻": 360,
+                "浮游生物和藻类": 1405,
+                "小鱼和鱿鱼": 2657
+            }
+        },
+        {
+            "question": "飞旋海豚群通常分布于哪些地区？",
+            "answer": "热带和亚热带海洋",
+            "choices": {
+                "地中海专属": 809,
+                "热带和亚热带海洋": 2751,
+                "主要分布于北极水域": 780
+            }
+        }
+    ]
+}

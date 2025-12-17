@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/09/29",
+    "result": [
+        {
+            "question": "豪滕镇木屋的一个显著特点是什么？",
+            "answer": "它们主要由木材建造而成。",
+            "choices": {
+                "它们传统上是用石头制成的。": 619,
+                "它们主要由木材建造而成。": 1213,
+                "它们通常有茅草屋顶。": 121
+            }
+        },
+        {
+            "question": "豪滕镇木屋代表了什么建筑风格？",
+            "answer": "木框架结构",
+            "choices": {
+                "木框架结构": 1885,
+                "粗野主义": 353,
+                "现代主义": 457
+            }
+        },
+        {
+            "question": "豪滕镇木制房屋最常见于哪些地方？",
+            "answer": "在农村或乡村环境中",
+            "choices": {
+                "在农村或乡村环境中": 1268,
+                "在城市环境中": 279,
+                "在沿海地区": 1158
+            }
+        }
+    ]
+}

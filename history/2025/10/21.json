@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/10/21",
+    "result": [
+        {
+            "question": "巨嘴鸟的显著特征是什么？",
+            "answer": "彩虹色的喙",
+            "choices": {
+                "彩虹色的喙": 12653,
+                "长长的尾羽": 706,
+                "色彩鲜艳的翅膀": 1256
+            }
+        },
+        {
+            "question": "哪种生态系统是巨嘴鸟的栖息地？",
+            "answer": "雨林",
+            "choices": {
+                "苔原": 773,
+                "雨林": 11194,
+                "沙漠": 330
+            }
+        },
+        {
+            "question": "巨嘴鸟主要以哪种食物为食？",
+            "answer": "水果",
+            "choices": {
+                "坚果": 3809,
+                "水果": 3966,
+                "昆虫": 3793
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/08/27",
+    "result": [
+        {
+            "question": "法罗群岛的湖泊瑟沃格湖(Sørvágsvatn)的另一个名称是什么？",
+            "answer": "莱蒂斯瓦特湖",
+            "choices": {
+                "湖畔湖": 2022,
+                "莱蒂斯瓦特湖": 4657,
+                "提约尔努维克湖": 1456
+            }
+        },
+        {
+            "question": "主要从瑟沃格湖(Sørvágsvatn)湖接收水流的瀑布是什么？",
+            "answer": "博斯达拉福苏尔瀑布",
+            "choices": {
+                "博斯达拉福苏尔瀑布": 3408,
+                "穆拉福苏尔瀑布": 1841,
+                "福萨瀑布": 1537
+            }
+        },
+        {
+            "question": "湖泊如瑟沃格湖的一个关键生态作用是什么？",
+            "answer": "支持生物多样性",
+            "choices": {
+                "制造沙漠": 646,
+                "支持生物多样性": 5083,
+                "发电": 1107
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/10/26",
+    "result": [
+        {
+            "question": "南瓜农场主要种植哪些类型的作物？",
+            "answer": "南瓜",
+            "choices": {
+                "萝卜": 407,
+                "南瓜": 2685,
+                "黄瓜": 172
+            }
+        },
+        {
+            "question": "南瓜农场通常在哪个季节最繁忙？",
+            "answer": "秋季",
+            "choices": {
+                "秋季": 2887,
+                "夏季": 360,
+                "春天": 242
+            }
+        },
+        {
+            "question": "秋天南瓜农场常提供哪些常见活动？",
+            "answer": "南瓜采摘",
+            "choices": {
+                "南瓜采摘": 3064,
+                "钓鱼": 154,
+                "单板滑雪": 85
+            }
+        }
+    ]
+}

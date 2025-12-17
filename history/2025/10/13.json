@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/10/13",
+    "result": [
+        {
+            "question": "欣特湖（Hintersee）附近的瀑布叫什么名字？",
+            "answer": "欣特湖(Hintersee)瀑布",
+            "choices": {
+                "欣特湖(Hintersee)瀑布": 999,
+                "温巴赫峡谷瀑布": 523,
+                "楚格峰瀑布": 394
+            }
+        },
+        {
+            "question": "欣特湖（Hintersee）以哪种自然景观闻名？",
+            "answer": "湖泊",
+            "choices": {
+                "冰川": 226,
+                "湖泊": 711,
+                "峡谷": 999
+            }
+        },
+        {
+            "question": "欣特湖（Hintersee）位于哪里？",
+            "answer": "巴伐利亚阿尔卑斯山",
+            "choices": {
+                "巴伐利亚阿尔卑斯山": 1053,
+                "萨克森瑞士": 524,
+                "黑森林": 241
+            }
+        }
+    ]
+}

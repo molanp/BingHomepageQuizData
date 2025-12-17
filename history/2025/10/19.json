@@ -1,0 +1,35 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/10/19",
+    "result": [
+        {
+            "question": "中国土生苹果属植物在古代叫什么？",
+            "answer": "柰(nài)或林檎(qín)",
+            "choices": {
+                "柰(nài)或林檎(qín)": 3033,
+                "苹果": 596,
+                "柰(n&#224;i)或林檎(q&#237;n)": 192,
+                "水果": 119,
+                "柰（nài）或林檎（qín）": 2
+            }
+        },
+        {
+            "question": "苹果收获通常在一年中的哪个时期进行？",
+            "answer": "秋季",
+            "choices": {
+                "春天": 545,
+                "冬季": 544,
+                "秋季": 2794
+            }
+        },
+        {
+            "question": "苹果收获节通常与哪些活动相关？",
+            "answer": "苹果派烘焙比赛",
+            "choices": {
+                "苹果派烘焙比赛": 3278,
+                "南瓜雕刻": 329,
+                "堆雪人": 178
+            }
+        }
+    ]
+}

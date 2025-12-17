@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/09/17",
+    "result": [
+        {
+            "question": "什么表明一只年轻的雄性驼鹿正在为未来的战斗做准备？",
+            "answer": "高昂其头",
+            "choices": {
+                "高昂其头": 5013,
+                "追逐其他驼鹿": 1089,
+                "进行大声呼叫": 621
+            }
+        },
+        {
+            "question": "年轻雄性驼鹿的鹿角中突出的特征是什么？",
+            "answer": "覆盖着绒",
+            "choices": {
+                "覆盖着绒": 2569,
+                "由骨头制成": 827,
+                "粗糙且带有尖刺": 3160
+            }
+        },
+        {
+            "question": "北美地区发现的鹿科动物中体型最大的是哪种？",
+            "answer": "驼鹿",
+            "choices": {
+                "麋鹿": 1837,
+                "驼鹿": 3367,
+                "驯鹿": 1142
+            }
+        }
+    ]
+}

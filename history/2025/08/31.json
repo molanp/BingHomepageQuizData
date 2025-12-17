@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/08/31",
+    "result": [
+        {
+            "question": "斯科茨布拉夫国家纪念碑以什么特征命名？",
+            "answer": "著名的毛皮商人",
+            "choices": {
+                "一位军事英雄": 818,
+                "著名的毛皮商人": 1533,
+                "一位美洲原住民领袖": 1383
+            }
+        },
+        {
+            "question": "斯科茨布拉夫国家纪念碑包含哪两座主要的悬崖？",
+            "answer": "北崖和南崖",
+            "choices": {
+                "高峰与低峰": 1004,
+                "北崖和南崖": 1158,
+                "东崖与西崖": 1299
+            }
+        },
+        {
+            "question": "哪种动物未被提及为斯科茨布拉夫地区动物群的一部分？",
+            "answer": "赤狐",
+            "choices": {
+                "赤狐": 1218,
+                "大角羊": 854,
+                "黑尾草原犬鼠": 1304
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/10/02",
+    "result": [
+        {
+            "question": "牛轭湾以哪一自然景观闻名？",
+            "answer": "河弯",
+            "choices": {
+                "河弯": 2341,
+                "瀑布": 178,
+                "一座山峰": 702,
+                " 瀑布": 1
+            }
+        },
+        {
+            "question": "牛轭湾的一个热门活动是什么？",
+            "answer": "观鸟",
+            "choices": {
+                "滑雪": 337,
+                "观鸟": 1720,
+                "洞穴探险": 923
+            }
+        },
+        {
+            "question": "在牛轭湾主要可以发现哪种类型的生态系统？",
+            "answer": "湿地",
+            "choices": {
+                "湿地": 2285,
+                "草原": 406,
+                "沙漠": 187
+            }
+        }
+    ]
+}

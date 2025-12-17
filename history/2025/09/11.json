@@ -1,0 +1,34 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/09/11",
+    "result": [
+        {
+            "question": "哪种食物与埃斯特雷马杜拉地区密切相关？",
+            "answer": "火腿",
+            "choices": {
+                "橄榄油": 1993,
+                "奶酪": 1666,
+                "火腿": 1530,
+                "奶酪  ": 1
+            }
+        },
+        {
+            "question": "哪种动物主要与埃斯特雷马杜拉著名的火腿生产相关？",
+            "answer": "伊比利亚猪",
+            "choices": {
+                "牛": 453,
+                "伊比利亚猪": 3350,
+                "绵羊": 451
+            }
+        },
+        {
+            "question": "什么特质对埃斯特雷马杜拉火腿的质量至关重要？",
+            "answer": "猪的饮食",
+            "choices": {
+                "猪的饮食": 1782,
+                "固化过程的持续时间": 1986,
+                "猪的年龄": 483
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/09/04",
+    "result": [
+        {
+            "question": "年轻灰熊进行“玩耍性打斗”的主要原因是什么？",
+            "answer": "提升力量与技能",
+            "choices": {
+                "建立领土": 1205,
+                "提升力量与技能": 2973,
+                "为了吸引配偶": 1564
+            }
+        },
+        {
+            "question": "中国哪些地区主要分布有灰熊？",
+            "answer": "新疆和东北山脉",
+            "choices": {
+                "新疆和东北山脉": 3322,
+                "西藏和云南": 2189,
+                "北京和上海": 348
+            }
+        },
+        {
+            "question": "灰熊目前面临的主要威胁是什么？",
+            "answer": "栖息地丧失和偷猎",
+            "choices": {
+                "栖息地丧失和偷猎": 4723,
+                "气候变化": 751,
+                "疾病爆发": 183
+            }
+        }
+    ]
+}

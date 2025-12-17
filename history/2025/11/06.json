@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/11/06",
+    "result": [
+        {
+            "question": "泰国有哪些以放灯笼为特色的热门节日？",
+            "answer": "义蓬",
+            "choices": {
+                "宋干节": 3067,
+                "国家森林保护日": 520,
+                "义蓬": 1452
+            }
+        },
+        {
+            "question": "泰国哪个城市以其著名的义蓬节而闻名？",
+            "answer": "清迈",
+            "choices": {
+                "清迈": 3023,
+                "曼谷": 1194,
+                "普吉岛": 815
+            }
+        },
+        {
+            "question": "泰国灯笼节期间传统上使用什么类型的灯笼？",
+            "answer": "纸灯笼",
+            "choices": {
+                "金属灯笼": 635,
+                "纸灯笼": 3660,
+                "玻璃灯笼": 640
+            }
+        }
+    ]
+}

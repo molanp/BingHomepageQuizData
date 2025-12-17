@@ -1,0 +1,36 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/12/08",
+    "result": [
+        {
+            "question": "是什么在圣诞季节改变了特雷梅佐村的面貌？",
+            "answer": "明亮的节日舞台",
+            "choices": {
+                "星光璀璨": 1353,
+                "渔船": 750,
+                "明亮的节日舞台": 1166,
+                " 明亮的节日舞台": 1
+            }
+        },
+        {
+            "question": "游客在圣诞集市上可以期待哪些当地美食？",
+            "answer": "意大利圣诞蛋糕",
+            "choices": {
+                "寿司卷": 226,
+                "意大利圣诞蛋糕": 2276,
+                "新鲜海鲜": 1477,
+                " 意大利圣诞蛋糕": 1
+            }
+        },
+        {
+            "question": "这些点心中，哪种在本地区圣诞市场上常见？",
+            "answer": "牛轧糖",
+            "choices": {
+                "意大利面": 2109,
+                "牛轧糖": 1499,
+                "寿司": 252,
+                " 牛轧糖": 1
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/12/01",
+    "result": [
+        {
+            "question": "1959年签署的《南极条约》在全球范围内促进了什么？",
+            "answer": "和平与科学",
+            "choices": {
+                "军事用途": 565,
+                "旅游业发展": 228,
+                "和平与科学": 2629
+            }
+        },
+        {
+            "question": "哪个自然特征突显了南极环境的脆弱性？",
+            "answer": "冰山",
+            "choices": {
+                "冰山": 3802,
+                "火山": 395,
+                "沙漠": 178
+            }
+        },
+        {
+            "question": "南极洲如何在全球气候系统中发挥作用？",
+            "answer": "储存淡水",
+            "choices": {
+                "储存淡水": 2997,
+                "滋养海洋生物": 1141,
+                "支持旅游业": 233
+            }
+        }
+    ]
+}

@@ -4,7 +4,7 @@
   "properties": {
     "date": {
       "type": "string",
-      "description": "日期，格式为 YYYY-MM-DD"
+      "description": "日期，格式为 YYYY/MM/DD"
     },
     "result": {
       "type": "array",

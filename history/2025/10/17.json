@@ -1,0 +1,34 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/10/17",
+    "result": [
+        {
+            "question": "哪个森林环绕着罗克河瀑布？",
+            "answer": "海华沙国家森林",
+            "choices": {
+                "海华沙国家森林": 1137,
+                "苏必利尔国家森林": 751,
+                "渥太华国家森林": 1602
+            }
+        },
+        {
+            "question": "在罗克河瀑布周围可以找到什么类型的栖息地？",
+            "answer": "湿地和森林",
+            "choices": {
+                "湿地和森林": 2563,
+                "高山苔原": 655,
+                "沙漠": 162,
+                " 湿地和森林": 1
+            }
+        },
+        {
+            "question": "游客在罗克河瀑常参与的活动是什么？",
+            "answer": "徒步旅行",
+            "choices": {
+                "徒步旅行": 2665,
+                "冲浪": 415,
+                "滑雪": 218
+            }
+        }
+    ]
+}

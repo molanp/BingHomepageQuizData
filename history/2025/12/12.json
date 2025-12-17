@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/12/12",
+    "result": [
+        {
+            "question": "关于斑点一品红毒性的常见误解是什么？",
+            "answer": "食用可能致命",
+            "choices": {
+                "它引发严重过敏": 1139,
+                "食用可能致命": 2951,
+                "完全安全": 1295
+            }
+        },
+        {
+            "question": "斑点一品红的哪部分实际上不是它的花？",
+            "answer": "树叶",
+            "choices": {
+                "茎": 1337,
+                "树叶": 2915,
+                "根源": 1475
+            }
+        },
+        {
+            "question": "哪个历史群体最早用斑点一品红制作染料和药物？",
+            "answer": "阿兹特克人",
+            "choices": {
+                "阿兹特克人": 2382,
+                "美洲原住民": 2283,
+                "印加": 916
+            }
+        }
+    ]
+}

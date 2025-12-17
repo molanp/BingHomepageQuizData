@@ -1,0 +1,36 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/12/07",
+    "result": [
+        {
+            "question": "大雪节气的到来对中国意味着什么？",
+            "answer": "降雨量增加",
+            "choices": {
+                "气温上升": 701,
+                "更干燥更温暖": 1079,
+                "降雨量增加": 2754,
+                " 降雨量增加": 1
+            }
+        },
+        {
+            "question": "中国北方在大雪节气期间是什么样子的？",
+            "answer": "冰覆盖",
+            "choices": {
+                "冰覆盖": 3929,
+                "沙漠": 281,
+                "热带": 124,
+                " 冰覆盖": 1
+            }
+        },
+        {
+            "question": "雪景装点下的故宫，展现出迷人的风光。",
+            "answer": "冬日仙境",
+            "choices": {
+                "冬日仙境": 4004,
+                "夏日风景": 195,
+                "热带天堂": 108,
+                " 冬日仙境": 1
+            }
+        }
+    ]
+}

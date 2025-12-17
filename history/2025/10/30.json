@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/10/30",
+    "result": [
+        {
+            "question": "普什卡尔集市主要以什么闻名？",
+            "answer": "骆驼交易",
+            "choices": {
+                "骆驼交易": 4189,
+                "花卉展览": 155,
+                "文化表演": 425
+            }
+        },
+        {
+            "question": "普什卡尔集市与哪些宗教意义相关？",
+            "answer": "印度朝圣",
+            "choices": {
+                "锡克教节日": 3051,
+                "佛教仪式": 565,
+                "印度朝圣": 1874
+            }
+        },
+        {
+            "question": "普什卡骆驼节通常在几月份举行？",
+            "answer": "十一月",
+            "choices": {
+                "十月": 1460,
+                "十一月": 2438,
+                "十二月": 1411
+            }
+        }
+    ]
+}

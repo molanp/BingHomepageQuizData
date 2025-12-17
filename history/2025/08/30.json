@@ -1,0 +1,36 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/08/30",
+    "result": [
+        {
+            "question": "鲸鲨的主要食物是什么？",
+            "answer": "浮游生物",
+            "choices": {
+                "浮游生物": 10124,
+                "小鱼": 5624,
+                "海藻": 600,
+                "小鱼  ": 1,
+                "浮游生物  ": 1,
+                "鱼": 2
+            }
+        },
+        {
+            "question": "是什么使每条鲸鲨彼此区别？",
+            "answer": "它们独特的斑点图案",
+            "choices": {
+                "它们独特的斑点图案": 10189,
+                "它们的大小": 813,
+                "它们的栖息地": 2301
+            }
+        },
+        {
+            "question": "鲸鲨主要生活在哪种水域？",
+            "answer": "温暖且富含营养的水域",
+            "choices": {
+                "温带水域": 1144,
+                "温暖且富含营养的水域": 10047,
+                "冷水区域": 1805
+            }
+        }
+    ]
+}

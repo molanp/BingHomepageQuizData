@@ -1,0 +1,34 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/10/08",
+    "result": [
+        {
+            "question": "章鱼中被称为白日章鱼的一个关键特征是什么？",
+            "answer": "擅长伪装",
+            "choices": {
+                "擅长伪装": 4150,
+                "它可以变成一个固体块。": 764,
+                "它拥有用于飞行的翅膀。": 326,
+                " 它可以变成一个固体块。": 1
+            }
+        },
+        {
+            "question": "常见的白日章鱼通常栖息于哪种栖息地？",
+            "answer": "沿海海洋环境",
+            "choices": {
+                "沿海海洋环境": 4035,
+                "淡水湖泊": 536,
+                "沙漠": 147
+            }
+        },
+        {
+            "question": "白日章鱼拥有哪些防御能力？",
+            "answer": "它可以释放墨水",
+            "choices": {
+                "它可以释放墨水": 3952,
+                "经常游泳": 316,
+                "它无法发电": 352
+            }
+        }
+    ]
+}

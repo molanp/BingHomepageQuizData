@@ -1,0 +1,34 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/11/09",
+    "result": [
+        {
+            "question": "在梅西耶星表中，礁湖星云被指定为哪个编号？",
+            "answer": "M8",
+            "choices": {
+                "M42": 1213,
+                "M8": 1658,
+                "M31": 363
+            }
+        },
+        {
+            "question": "哪个星团与礁湖星云相关联？",
+            "answer": "NGC 6530",
+            "choices": {
+                "NGC 6530": 1534,
+                "NGC 6914": 1211,
+                "NGC 2244": 557,
+                "NGC 6530  ": 1
+            }
+        },
+        {
+            "question": "礁湖星云位于哪个星座？",
+            "answer": "射手座",
+            "choices": {
+                "猎户座": 1015,
+                "射手座": 1284,
+                "仙后座": 933
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/10/14",
+    "result": [
+        {
+            "question": "圣托里尼岛伊亚的主要建筑风格是什么？",
+            "answer": "传统的基克拉泽斯建筑",
+            "choices": {
+                "传统的基克拉泽斯建筑": 8692,
+                "摩尔建筑": 2222,
+                "巴洛克建筑": 2707,
+                " 摩尔建筑": 1
+            }
+        },
+        {
+            "question": "伊亚最著名的特色是什么？",
+            "answer": "壮丽的日落",
+            "choices": {
+                "它的沙滩": 1945,
+                "壮丽的日落": 7142,
+                "充满活力的夜生活": 1950
+            }
+        },
+        {
+            "question": "伊亚周围是什么类型的景观？",
+            "answer": "丘陵地形",
+            "choices": {
+                "平坦的平原": 1509,
+                "丘陵地形": 7245,
+                "山区": 2086
+            }
+        }
+    ]
+}

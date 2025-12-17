@@ -1,0 +1,35 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/11/04",
+    "result": [
+        {
+            "question": "伦敦标志性的塔桥是在哪一年竣工的？",
+            "answer": "1894年",
+            "choices": {
+                "1887年": 7158,
+                "1900": 1208,
+                "1894年": 6969,
+                "1887年 1887 年": 1,
+                "1887 年": 2
+            }
+        },
+        {
+            "question": "伦敦塔桥被归类为哪种类型的桥梁？",
+            "answer": "开启桥",
+            "choices": {
+                "悬索桥": 4511,
+                "吊桥": 2446,
+                "开启桥": 5917
+            }
+        },
+        {
+            "question": "伦敦塔桥横跨的是哪条河流？",
+            "answer": "泰晤士河",
+            "choices": {
+                "泰晤士河": 10481,
+                "默西河": 884,
+                "塞文河": 1075
+            }
+        }
+    ]
+}

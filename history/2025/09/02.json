@@ -1,0 +1,37 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/09/02",
+    "result": [
+        {
+            "question": "‘Deadvlei’这个名字的含义是什么？",
+            "answer": "死亡谷",
+            "choices": {
+                "死亡谷": 12590,
+                "干涸的湖泊": 2533,
+                "生活山谷": 1373,
+                " 死亡谷": 2
+            }
+        },
+        {
+            "question": "是什么特性使得死亡谷的树木能够屹立如此之久？",
+            "answer": "高盐浓度",
+            "choices": {
+                "高盐浓度": 10678,
+                "防止阳光照射": 1671,
+                "对疾病具有免疫力": 1139,
+                " 高盐浓度": 1,
+                "高盐浓度  ": 1
+            }
+        },
+        {
+            "question": "哪种现象主要导致了死亡谷中树木的保存？",
+            "answer": "长期干旱",
+            "choices": {
+                "长期干旱": 7732,
+                "荒漠化": 3232,
+                "高湿度": 2287,
+                " 长期干旱": 1
+            }
+        }
+    ]
+}

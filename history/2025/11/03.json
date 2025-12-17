@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/11/03",
+    "result": [
+        {
+            "question": "水母的身体中有多少百分比是由水组成的？",
+            "answer": "0.95",
+            "choices": {
+                "0.95": 1936,
+                "0.85": 542,
+                "0.75": 149
+            }
+        },
+        {
+            "question": "水母属于哪一类动物？",
+            "answer": "刺胞动物",
+            "choices": {
+                "刺胞动物": 1662,
+                "软体动物": 2073,
+                "节肢动物门": 356
+            }
+        },
+        {
+            "question": "哪种水母以其重置生命周期的能力而闻名？",
+            "answer": "永生水母",
+            "choices": {
+                "永生水母": 2646,
+                "箱形水母": 558,
+                "月亮水母": 696
+            }
+        }
+    ]
+}

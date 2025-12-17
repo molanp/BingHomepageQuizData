@@ -1,0 +1,35 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/11/29",
+    "result": [
+        {
+            "question": "安东和海伦娜·克勒-穆勒对其庄园的艺术愿景是什么？",
+            "answer": "融合自然与艺术",
+            "choices": {
+                "融合自然与艺术": 5657,
+                "创建野生动物保护区": 2944,
+                "建造庄严的宅邸": 344
+            }
+        },
+        {
+            "question": "鹿维鹿公园特别突出的动物是哪种？",
+            "answer": "赤鹿",
+            "choices": {
+                "赤鹿": 9202,
+                "欧洲野牛": 1110,
+                "野猪": 811,
+                " 欧洲野牛": 1
+            }
+        },
+        {
+            "question": "哪些类型的景观未被提及为鹿维卢韦的一部分？",
+            "answer": "沙漠",
+            "choices": {
+                "森林": 3082,
+                "沙丘": 2510,
+                "沙漠": 5463,
+                " 沙漠": 1
+            }
+        }
+    ]
+}

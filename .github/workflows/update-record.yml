@@ -76,8 +76,8 @@ jobs:
           # 如果 src 被误暂存，额外取消其暂存（安全措施）
           git reset --quiet -- src || true
 
-          # 明确只添加这三个路径
-          git add -- current.json history/ sitemaps/ || true
+          # 明确只添加这2个路径
+          git add -- current.json history/ || true
 
           # 可选：查看将要提交的内容（便于调试）
           git status --porcelain

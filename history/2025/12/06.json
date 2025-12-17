@@ -1,0 +1,38 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/12/06",
+    "result": [
+        {
+            "question": "佛罗里达大沼泽地主要是什么类型的生态系统？",
+            "answer": "湿地",
+            "choices": {
+                "湿地": 11323,
+                "山": 494,
+                "沙漠": 2708,
+                " 湿地": 1,
+                "湿地  ": 1,
+                "湿地  沼泽": 1
+            }
+        },
+        {
+            "question": "哪个动物不是大沼泽地生态系统的原生物种？",
+            "answer": "北极熊",
+            "choices": {
+                "秃鹰": 1803,
+                "北极熊": 8361,
+                "佛罗里达美洲豹": 2005,
+                " 北极熊": 1
+            }
+        },
+        {
+            "question": "佛罗里达大沼泽地目前面临哪些重大威胁？",
+            "answer": "城市发展",
+            "choices": {
+                "山体侵蚀": 1452,
+                "荒漠化": 3989,
+                "城市发展": 6461,
+                " 城市发展": 1
+            }
+        }
+    ]
+}

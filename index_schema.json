@@ -11,7 +11,7 @@
       "description": "日期与对应文件路径的映射",
       "additionalProperties": {
         "type": "string",
-        "description": "日期对应的文件路径，键为 YYYY-MM-DD 格式的日期"
+        "description": "日期对应的文件路径，键为 YYYY/MM/DD 格式的日期"
       }
     }
   },

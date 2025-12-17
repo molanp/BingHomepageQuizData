@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/09/01",
+    "result": [
+        {
+            "question": "凯撒施图尔地区主要的气候类型是什么？",
+            "answer": "温带气候",
+            "choices": {
+                "热带气候": 326,
+                "沙漠气候": 566,
+                "温带气候": 1817
+            }
+        },
+        {
+            "question": "在凯撒施图尔地区种植的葡萄品种以哪种最为著名？",
+            "answer": "灰皮诺（Grauburgunder）",
+            "choices": {
+                "霞多丽": 515,
+                "灰皮诺（Grauburgunder）": 1749,
+                "赤霞珠": 585
+            }
+        },
+        {
+            "question": "凯泽斯图尔地区的动物群具有哪些独特特征？",
+            "answer": "濒危物种的存在",
+            "choices": {
+                "家养动物数量众多": 693,
+                "濒危物种的存在": 822,
+                "大型迁徙鸟类种群": 1348
+            }
+        }
+    ]
+}

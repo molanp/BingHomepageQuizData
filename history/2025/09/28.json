@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/09/28",
+    "result": [
+        {
+            "question": "皮恩扎以何种美食体验而闻名？",
+            "answer": "奶酪",
+            "choices": {
+                "橄榄油生产": 1270,
+                "奶酪": 1386,
+                "意大利面": 437
+            }
+        },
+        {
+            "question": "皮恩扎庆祝的是哪项重要的节日活动？",
+            "answer": "奶酪节",
+            "choices": {
+                "意大利面节": 501,
+                "酒桶赛跑节": 248,
+                "奶酪节": 2494
+            }
+        },
+        {
+            "question": "皮恩扎主要以哪种菜系闻名？",
+            "answer": "托斯卡纳菜系",
+            "choices": {
+                "托斯卡纳菜系": 2227,
+                "海鲜": 238,
+                "米兰菜系": 752
+            }
+        }
+    ]
+}

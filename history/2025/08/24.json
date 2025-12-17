@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2025/08/24",
+    "result": [
+        {
+            "question": "夏季黇鹿的典型毛发颜色是什么？",
+            "answer": "红棕色带有白色斑点",
+            "choices": {
+                "灰色带有黑色条纹": 263,
+                "红棕色带有白色斑点": 2236,
+                "深棕色且无斑点": 1347
+            }
+        },
+        {
+            "question": "欧洲黇鹿是如何可能进入英国的？",
+            "answer": "由罗马人引入",
+            "choices": {
+                "由罗马人引入": 1806,
+                "由维京人带来": 1025,
+                "本地特有": 649
+            }
+        },
+        {
+            "question": "雄性黇鹿通常在什么季节进行鹿角碰撞？",
+            "answer": "秋天",
+            "choices": {
+                "春天": 1582,
+                "冬季": 391,
+                "秋天": 1436
+            }
+        }
+    ]
+}
