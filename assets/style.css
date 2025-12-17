@@ -81,6 +81,11 @@ code.language-json {
   word-break: break-word;
 }
 
+.sumTtl {
+  font: normal 700 24px/32px Arial, Helvetica, Sans-Serif;
+  color: #39c5bb;
+}
+
 /* ✨ Prism.js 高亮补充 */
 .token.property {
   color: #39c5bb;
