@@ -119,7 +119,7 @@ def get_quiz(page: ChromiumPage, i: int):
 
         log(f"✅ [JavaScript] 正确答案: {answer}")
         log("🖱️ [JavaScript] [解析链接] 尝试获取第一个选项链接并跳转...")
-        url = page.ele(".acf-button-standard__link").link
+        url = page.ele("css:acf-button-standard[data-shape=\"Rectangle\"][data-size=\"Large\"] .acf-button-standard__link").link
         page.get(url)
         log(f"🖱️ [JavaScript] [解析链接] 获取到第一个选项链接: {url}")
     log("📊 [选项投票统计] 请求 funapi 接口...")
@@ -144,11 +144,18 @@ def get_quiz(page: ChromiumPage, i: int):
             time.sleep(2)
             try:
                 page.ele(f"#nextQuestionbtn{i}").click()
+                log(f"#nextQuestionbtn{i}  点击成功")
             except Exception:
                 try:
-                    page.ele("tag:button@title=下一个").click()
+                    page.ele(".btq_nxtQues").click()
+                    log(".btq_nxtQues  点击成功")
                 except Exception:
-                    page.ele("Next Question").click()
+                    try:
+                        page.ele("tag:button@title=下一个").click()
+                        log("tag:button@title=下一个  点击成功")
+                    except Exception:
+                        page.ele("Next Question").click()
+                        log("text: Next Question  点击成功")
             log("⏭️ [跳转下一题] 已进入下一题")
 
     log(f"🟥========== 结束处理第 {i} 题 ==========\n")
