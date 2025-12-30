@@ -2,8 +2,9 @@ name: Update Record
 
 on:
   schedule:
-    # 每天北京时间 00:10
+    # 每天北京时间 00:10, 12:10
     - cron: "10 16 * * *"
+    - cron: "10 4 * * *"
   workflow_dispatch:
 
 jobs:
