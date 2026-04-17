@@ -6,27 +6,27 @@
             "question": "哪个大陆没有原生蝙蝠种群？",
             "answer": "A. 南极洲",
             "choices": {
-                "A. 南极洲": 333,
-                "B. 亚洲": 57,
-                "C. 欧洲": 25
+                "A. 南极洲": 5076,
+                "B. 亚洲": 705,
+                "C. 欧洲": 323
             }
         },
         {
             "question": "Which sense does the grey-headed flying fox use to navigate?",
             "answer": "A. Sight and smell",
             "choices": {
-                "C. Magnetic field": 2,
-                "B. Echolocation": 6,
-                "A. Sight and smell": 4
+                "C. Magnetic field": 1140,
+                "B. Echolocation": 8234,
+                "A. Sight and smell": 6055
             }
         },
         {
             "question": "Which species can be found in Bracken Cave in summer?",
             "answer": "A. Mexican free-tailed",
             "choices": {
-                "C. Little brown bat": 3,
-                "B. Hoary bat": 3,
-                "A. Mexican free-tailed": 4
+                "C. Little brown bat": 4060,
+                "B. Hoary bat": 2553,
+                "A. Mexican free-tailed": 7263
             }
         }
     ]
