@@ -6,26 +6,33 @@
             "question": "岛上雕像是用什么材料雕刻的？",
             "answer": "B. 强悍",
             "choices": {
-                "A. 玄武岩": 240,
-                "B. 强悍": 111,
-                "C. 花岗岩": 108
+                "A. 玄武岩": 7965,
+                "B. 强悍": 4554,
+                "C. 花岗岩": 4131,
+                "玄武岩": 4,
+                "强悍": 1
             }
         },
         {
             "question": "What material were the moai statues primarily carved from?",
             "answer": "A. Volcanic ash",
             "choices": {
-                "B. Granite": 5,
-                "A. Volcanic ash": 1
+                "B. Granite": 15940,
+                "A. Volcanic ash": 30008,
+                "A. Basalt": 632,
+                "B. Compressed volcanic ash": 1296,
+                "C. Granite": 314,
+                "C. Sandstone": 10523
             }
         },
         {
             "question": "Which culture created the moai statues at Rano Raraku?",
             "answer": "A. Rapa Nui",
             "choices": {
-                "C. Samoan": 1,
-                "A. Rapa Nui": 1,
-                "B. Maori": 3
+                "C. Samoan": 7433,
+                "A. Rapa Nui": 33812,
+                "B. Maori": 18664,
+                "Rapa Nui": 1
             }
         }
     ]
