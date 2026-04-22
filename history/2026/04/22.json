@@ -6,27 +6,27 @@
             "question": "爱沙尼亚哪个保护区守护着大片湿地？",
             "answer": "A. 阿拉姆-佩德亚",
             "choices": {
-                "A. 阿拉姆-佩德亚": 437,
-                "B. 卡列夫": 139,
-                "C. 卡姆拉德": 94
+                "A. 阿拉姆-佩德亚": 5377,
+                "B. 卡列夫": 1710,
+                "C. 卡姆拉德": 1044
             }
         },
         {
             "question": "What natural feature in Alam‑Pedja helps store carbon?",
             "answer": "A. Peat bogs",
             "choices": {
-                "C. Coral reefs": 2,
-                "B. Sandy dunes": 3,
-                "A. Peat bogs": 3
+                "C. Coral reefs": 1105,
+                "B. Sandy dunes": 1323,
+                "A. Peat bogs": 13319
             }
         },
         {
             "question": "Which method best describes Alam‑Pedja's conservation?",
             "answer": "A. Minimal interference",
             "choices": {
-                "B. Intensive farming": 2,
-                "C. Urban development": 1,
-                "A. Minimal interference": 1
+                "B. Intensive farming": 1014,
+                "C. Urban development": 554,
+                "A. Minimal interference": 13247
             }
         }
     ]
