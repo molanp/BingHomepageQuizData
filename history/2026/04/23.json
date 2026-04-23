@@ -6,26 +6,27 @@
             "question": "哪座英国小镇有安妮&#183;海瑟薇的童年故居？",
             "answer": "A. 埃文河畔斯特拉特福",
             "choices": {
-                "B. 沃里克": 88,
-                "C. 牛津": 51,
-                "A. 埃文河畔斯特拉特福": 278
+                "B. 沃里克": 1147,
+                "C. 牛津": 756,
+                "A. 埃文河畔斯特拉特福": 4337
             }
         },
         {
             "question": "What type of roof is featured on Anne Hathaway's cottage?",
             "answer": "A. Thatched",
             "choices": {
-                "B. Slate": 5,
-                "A. Thatched": 4
+                "B. Slate": 1245,
+                "A. Thatched": 10828,
+                "C. Tile": 502
             }
         },
         {
             "question": "What style inspired the cottage's surrounding gardens?",
             "answer": "A. Tudor",
             "choices": {
-                "A. Tudor": 5,
-                "B. Victorian": 1,
-                "C. Georgian": 1
+                "A. Tudor": 8477,
+                "B. Victorian": 2774,
+                "C. Georgian": 1160
             }
         }
     ]
