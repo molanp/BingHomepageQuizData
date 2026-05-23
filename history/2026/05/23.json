@@ -6,18 +6,19 @@
             "question": "一些海龟使用哪种方法进行导航？",
             "answer": "A. 地球磁场",
             "choices": {
-                "A. 地球磁场": 274,
-                "B. 洋流": 157,
-                "C. 星座图案": 32
+                "A. 地球磁场": 8688,
+                "B. 洋流": 4699,
+                "C. 星座图案": 448,
+                "洋流": 1
             }
         },
         {
             "question": "&quot;Error: Load balancer failed to send request. Code: SchedulingRejected; Message: &quot;&quot;Load balancer reaches the max retry number&quot;&quot;&quot;",
             "answer": "C. 维护海草",
             "choices": {
-                "B. &quot;Error: Load balancer failed to send request. Code: SchedulingRejected; Message: &quot;&quot;Load balancer reaches the max retry number&quot;&quot;&quot;": 1803,
-                "C. &quot;Error: Load balancer failed to send request. Code: SchedulingRejected; Message: &quot;&quot;Load balancer reaches the max retry number&quot;&quot;&quot;": 2001,
-                "A. &quot;Error: Load balancer failed to send request. Code: SchedulingRejected; Message: &quot;&quot;Load balancer reaches the max retry number&quot;&quot;&quot;": 3324,
+                "B. &quot;Error: Load balancer failed to send request. Code: SchedulingRejected; Message: &quot;&quot;Load balancer reaches the max retry number&quot;&quot;&quot;": 1805,
+                "C. &quot;Error: Load balancer failed to send request. Code: SchedulingRejected; Message: &quot;&quot;Load balancer reaches the max retry number&quot;&quot;&quot;": 2003,
+                "A. &quot;Error: Load balancer failed to send request. Code: SchedulingRejected; Message: &quot;&quot;Load balancer reaches the max retry number&quot;&quot;&quot;": 3330,
                 "B. Cria&#231;&#227;o cativa": 104,
                 "C. Recolha p&#243;s-ca&#231;a": 90,
                 "A. Troca natural": 242,
@@ -25,9 +26,9 @@
                 "B. 落羽杉": 1081,
                 "C. Douro": 18,
                 "A. Tagus": 98,
-                "C. 维护海草": 135,
-                "B. 控制浮游生物": 168,
-                "A. 培育珊瑚": 142
+                "C. 维护海草": 4656,
+                "B. 控制浮游生物": 4462,
+                "A. 培育珊瑚": 4066
             }
         }
     ]
