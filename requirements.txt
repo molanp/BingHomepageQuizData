@@ -2,3 +2,4 @@ playwright
 requests
 drissionpage
 pytz
+datarecorder
