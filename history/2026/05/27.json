@@ -1,5 +1,38 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
     "date": "2026/05/27",
-    "result": []
+    "result": [
+        {
+            "question": "哪一个美国海湾因有游泳的海獭而闻名？",
+            "answer": "A. 卡切马克湾",
+            "choices": {
+                "B. 蒙特雷湾": 707,
+                "C. 冰川湾": 233,
+                "A. 卡切马克湾": 1145
+            }
+        },
+        {
+            "question": "海獭控制哪些猎物以保护海带森林？",
+            "answer": "A. 海胆",
+            "choices": {
+                "A. 螃蟹": 2,
+                "B. 海胆": 4,
+                "B. 海星": 474,
+                "C. 螃蟹": 304,
+                "A. 海胆": 934
+            }
+        },
+        {
+            "question": "用于描述海獭助力气候韧性的术语是什么？",
+            "answer": "C. 气候英雄",
+            "choices": {
+                "B. 海洋守护者": 3,
+                "C. 气候英雄": 435,
+                "A. 海带养护员": 1,
+                "A. 海洋守护者": 715,
+                "B. 海带养护员": 531,
+                "海洋守护者": 2
+            }
+        }
+    ]
 }
