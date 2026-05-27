@@ -2,4 +2,13 @@ playwright
 requests
 drissionpage
 pytz
-datarecorder
+requests
+lxml
+cssselect
+DrissionGet
+DrissionRecord
+websocket-client
+click
+tldextract>=3.4.4
+psutil
+DownloadKit
