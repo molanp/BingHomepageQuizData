@@ -138,25 +138,24 @@ def get_quiz(page: ChromiumPage, i: int):
     log(f"📊 投票统计: {choices}")
 
     with contextlib.suppress(Exception):
-        if i < 2:
-            log("⏭️ [跳转下一题] 尝试点击下一题按钮...")
+         log("⏭️ [跳转下一题] 尝试点击下一题按钮...")
 
-            time.sleep(2)
-            try:
-                page.ele(f"#nextQuestionbtn{i}").click()
-                log(f"#nextQuestionbtn{i}  点击成功")
-            except Exception:
-                try:
-                    page.ele(".btq_nxtQues").click()
-                    log(".btq_nxtQues  点击成功")
-                except Exception:
-                    try:
-                        page.ele("tag:button@title=下一个").click()
-                        log("tag:button@title=下一个  点击成功")
-                    except Exception:
-                        page.ele("Next Question").click()
-                        log("text: Next Question  点击成功")
-            log("⏭️ [跳转下一题] 已进入下一题")
+         time.sleep(2)
+         try:
+             page.ele(f"#nextQuestionbtn{i}").click()
+             log(f"#nextQuestionbtn{i}  点击成功")
+         except Exception:
+             try:
+                 page.ele(".btq_nxtQues").click()
+                 log(".btq_nxtQues  点击成功")
+             except Exception:
+                 try:
+                     page.ele("tag:button@title=下一个").click()
+                     log("tag:button@title=下一个  点击成功")
+                 except Exception:
+                     page.ele("Next Question").click()
+                     log("text: Next Question  点击成功")
+         log("⏭️ [跳转下一题] 已进入下一题")
 
     log(f"🟥========== 结束处理第 {i} 题 ==========\n")
 
