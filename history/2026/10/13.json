@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/10/13",
+    "result": [
+        {
+            "question": "普利特维采湖泊颜色变化由哪种元素引起？",
+            "answer": "B. 矿物",
+            "choices": {
+                "B. 矿物": 466,
+                "C. 藻类": 169,
+                "A. 冰": 290
+            }
+        },
+        {
+            "question": "是什么自然景观将普利特维采的湖泊连接在一起？",
+            "answer": "B. 瀑布",
+            "choices": {
+                "B. 瀑布": 331,
+                "C. 洞穴": 266,
+                "A. 冰川": 212
+            }
+        },
+        {
+            "question": "哪种岩石结构在时间推移中塑造了普利特维采的瀑布？",
+            "answer": "C. 石灰华",
+            "choices": {
+                "C. 石灰华": 295,
+                "B. 玄武岩": 211,
+                "A. 花岗岩": 246
+            }
+        }
+    ]
+}
