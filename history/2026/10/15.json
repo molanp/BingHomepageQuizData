@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/10/15",
+    "result": [
+        {
+            "question": "哪座波兰城市建在众多岛屿之上？",
+            "answer": "B. 弗罗茨瓦夫",
+            "choices": {
+                "C. 格但斯克": 80,
+                "B. 弗罗茨瓦夫": 337,
+                "A. 克拉科夫": 251
+            }
+        },
+        {
+            "question": "弗罗茨瓦夫集市广场上有什么地标？",
+            "answer": "A. 哥特式市政厅",
+            "choices": {
+                "B. 瓦维尔城堡": 200,
+                "C. 布料大厦": 78,
+                "A. 哥特式市政厅": 251
+            }
+        },
+        {
+            "question": "哪座桥连接着圣玛丽&#183;抹大拉的塔楼？",
+            "answer": "B. 女巫之桥",
+            "choices": {
+                "A. 格伦瓦尔德桥": 188,
+                "C. 图姆斯基桥": 142,
+                "B. 女巫之桥": 184
+            }
+        }
+    ]
+}
