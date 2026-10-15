@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/10/16",
+    "result": [
+        {
+            "question": "哪座山脉包含斯内弗尔斯山？",
+            "answer": "B. 圣胡安山脉",
+            "choices": {
+                "A. 落基山脉": 232,
+                "C. 瓦萨奇山脉": 98,
+                "B. 圣胡安山脉": 230
+            }
+        },
+        {
+            "question": "斯内弗尔斯山主要由哪种岩石构成？",
+            "answer": "A. 火成岩",
+            "choices": {
+                "C. 沉积岩": 124,
+                "A. 火成岩": 223,
+                "B. 变质岩": 110
+            }
+        },
+        {
+            "question": "哪个流域路线通往蓝湖？",
+            "answer": "B. 扬基男孩盆地",
+            "choices": {
+                "A. 天堂盆地": 123,
+                "B. 扬基男孩盆地": 189,
+                "C. 大棉木盆地": 135
+            }
+        }
+    ]
+}
