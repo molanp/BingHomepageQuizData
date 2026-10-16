@@ -1,32 +1,32 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
-    "date": "2026/10/16",
+    "date": "2026/10/17",
     "result": [
         {
-            "question": "哪座山脉包含斯内弗尔斯山？",
-            "answer": "B. 圣胡安山脉",
+            "question": "法国哪个地区有肖维洞穴？",
+            "answer": "C. 奥克西塔尼",
             "choices": {
-                "A. 落基山脉": 232,
-                "C. 瓦萨奇山脉": 98,
-                "B. 圣胡安山脉": 230
+                "A. 奥弗涅": 215,
+                "B. 普罗旺斯": 222,
+                "C. 奥克西塔尼": 164
             }
         },
         {
-            "question": "斯内弗尔斯山主要由哪种岩石构成？",
-            "answer": "A. 火成岩",
+            "question": "肖维洞穴艺术中描绘了哪些动物？",
+            "answer": "C. 长毛猛犸象",
             "choices": {
-                "C. 沉积岩": 124,
-                "A. 火成岩": 223,
-                "B. 变质岩": 110
+                "A. 袋鼠": 106,
+                "C. 长毛猛犸象": 262,
+                "B. 大熊猫": 89
             }
         },
         {
-            "question": "哪个流域路线通往蓝湖？",
-            "answer": "B. 扬基男孩盆地",
+            "question": "肖维洞穴2号复制馆展示了什么？",
+            "answer": "B. 史前艺术",
             "choices": {
-                "A. 天堂盆地": 123,
-                "B. 扬基男孩盆地": 189,
-                "C. 大棉木盆地": 135
+                "B. 史前艺术": 258,
+                "A. 罗马浴场": 117,
+                "C. 古代寺庙": 65
             }
         }
     ]

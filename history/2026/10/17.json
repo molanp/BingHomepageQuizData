@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/10/17",
+    "result": [
+        {
+            "question": "法国哪个地区有肖维洞穴？",
+            "answer": "C. 奥克西塔尼",
+            "choices": {
+                "A. 奥弗涅": 215,
+                "B. 普罗旺斯": 222,
+                "C. 奥克西塔尼": 164
+            }
+        },
+        {
+            "question": "肖维洞穴艺术中描绘了哪些动物？",
+            "answer": "C. 长毛猛犸象",
+            "choices": {
+                "A. 袋鼠": 106,
+                "C. 长毛猛犸象": 262,
+                "B. 大熊猫": 89
+            }
+        },
+        {
+            "question": "肖维洞穴2号复制馆展示了什么？",
+            "answer": "B. 史前艺术",
+            "choices": {
+                "B. 史前艺术": 258,
+                "A. 罗马浴场": 117,
+                "C. 古代寺庙": 65
+            }
+        }
+    ]
+}
