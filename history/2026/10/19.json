@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/10/19",
+    "result": [
+        {
+            "question": "哪座意大利城市的主要街道是水道？",
+            "answer": "B. 威尼斯",
+            "choices": {
+                "B. 威尼斯": 307,
+                "C. 那不勒斯": 51,
+                "A. 佛罗伦萨": 201
+            }
+        },
+        {
+            "question": "威尼斯的主要交通路线是什么？",
+            "answer": "B. 大运河",
+            "choices": {
+                "A. 台伯河运河": 140,
+                "B. 大运河": 254,
+                "C. 波河": 67
+            }
+        },
+        {
+            "question": "威尼斯大运河上有多少座桥？",
+            "answer": "B. 四",
+            "choices": {
+                "B. 四": 156,
+                "A. 七": 242,
+                "C. 二": 48
+            }
+        }
+    ]
+}

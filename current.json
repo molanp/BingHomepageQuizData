@@ -1,32 +1,32 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
-    "date": "2026/10/18",
+    "date": "2026/10/19",
     "result": [
         {
-            "question": "哪位统治者下令修建多尔巴丹城堡？",
-            "answer": "A. 大卢埃林",
+            "question": "哪座意大利城市的主要街道是水道？",
+            "answer": "B. 威尼斯",
             "choices": {
-                "A. 大卢埃林": 611,
-                "B. 爱德华一世": 384,
-                "C. 欧韦恩&#183;格林杜尔": 208
+                "B. 威尼斯": 307,
+                "C. 那不勒斯": 51,
+                "A. 佛罗伦萨": 201
             }
         },
         {
-            "question": "斯诺多尼亚最高的山峰是哪座？",
-            "answer": "A. 斯诺登山",
+            "question": "威尼斯的主要交通路线是什么？",
+            "answer": "B. 大运河",
             "choices": {
-                "A. 斯诺登山": 436,
-                "B. 特里凡山": 186,
-                "C. 卡迪尔山": 168
+                "A. 台伯河运河": 140,
+                "B. 大运河": 254,
+                "C. 波河": 67
             }
         },
         {
-            "question": "多尔巴丹城堡塔楼下方是哪座湖泊？",
-            "answer": "A. 帕达恩湖",
+            "question": "威尼斯大运河上有多少座桥？",
+            "answer": "B. 四",
             "choices": {
-                "B. 克韦林湖": 213,
-                "A. 帕达恩湖": 363,
-                "C. 泰吉德湖": 184
+                "B. 四": 156,
+                "A. 七": 242,
+                "C. 二": 48
             }
         }
     ]
