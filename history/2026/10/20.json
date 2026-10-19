@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/10/20",
+    "result": [
+        {
+            "question": "棕喉三趾树懒分布于哪些大陆？",
+            "answer": "A. 南美洲",
+            "choices": {
+                "A. 南美洲": 246,
+                "C. 澳大利亚": 191,
+                "B. 非洲": 85
+            }
+        },
+        {
+            "question": "棕喉三趾树懒的颈部有何特殊能力？",
+            "answer": "C. 旋转270度",
+            "choices": {
+                "A. 向后弯曲": 126,
+                "C. 旋转270度": 217,
+                "B. 向前延伸": 113
+            }
+        },
+        {
+            "question": "棕喉三趾树懒如何与树叶融为一体？",
+            "answer": "C. 绿藻",
+            "choices": {
+                "B. 褐色苔藓": 203,
+                "C. 绿藻": 157,
+                "A. 红色地衣": 86
+            }
+        }
+    ]
+}
