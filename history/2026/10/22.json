@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/10/22",
+    "result": [
+        {
+            "question": "内藏山以哪一季的景色最为著名？",
+            "answer": "C. 秋天",
+            "choices": {
+                "A. 夏季": 219,
+                "C. 秋天": 268,
+                "B. 春季": 134
+            }
+        },
+        {
+            "question": "“内藏山”这一名称的含义是什么？",
+            "answer": "C. 山中藏诸多秘密",
+            "choices": {
+                "B. 金光之谷": 169,
+                "C. 山中藏诸多秘密": 241,
+                "A. 九龙之巅": 86
+            }
+        },
+        {
+            "question": "内藏山哪座寺庙具有历史价值？",
+            "answer": "A. 内藏寺",
+            "choices": {
+                "A. 内藏寺": 275,
+                "B. 海印寺": 82,
+                "C. 佛国寺": 109
+            }
+        }
+    ]
+}
