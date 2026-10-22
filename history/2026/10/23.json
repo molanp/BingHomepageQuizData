@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/10/23",
+    "result": [
+        {
+            "question": "灰狼在黄石公园偏爱哪种栖息地？",
+            "answer": "B. 蒿草地形",
+            "choices": {
+                "A. 山坡": 232,
+                "C. 松林": 95,
+                "B. 蒿草地形": 291
+            }
+        },
+        {
+            "question": "灰狼通常生活在何种社会结构中？",
+            "answer": "A. 狼群",
+            "choices": {
+                "B. 兽群": 88,
+                "A. 狼群": 358,
+                "C. 孤立的配对": 82
+            }
+        },
+        {
+            "question": "哪种感官帮助灰狼狩猎并进行交流？",
+            "answer": "A. 敏锐听觉",
+            "choices": {
+                "B. 灵敏嗅觉": 252,
+                "C. 敏锐视力": 62,
+                "A. 敏锐听觉": 205
+            }
+        }
+    ]
+}
