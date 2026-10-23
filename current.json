@@ -1,32 +1,32 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
-    "date": "2026/10/23",
+    "date": "2026/10/24",
     "result": [
         {
-            "question": "灰狼在黄石公园偏爱哪种栖息地？",
-            "answer": "B. 蒿草地形",
+            "question": "哪座城市拥有葡萄牙皇家阅览室？",
+            "answer": "A. 里约热内卢",
             "choices": {
-                "A. 山坡": 232,
-                "C. 松林": 95,
-                "B. 蒿草地形": 291
+                "C. 波尔图": 91,
+                "A. 里约热内卢": 380,
+                "B. 里斯本": 226
             }
         },
         {
-            "question": "灰狼通常生活在何种社会结构中？",
-            "answer": "A. 狼群",
+            "question": "图书馆建筑采用何种建筑风格？",
+            "answer": "B. 新曼努埃尔式",
             "choices": {
-                "B. 兽群": 88,
-                "A. 狼群": 358,
-                "C. 孤立的配对": 82
+                "B. 新曼努埃尔式": 288,
+                "C. 哥特复兴": 140,
+                "A. 装饰艺术": 138
             }
         },
         {
-            "question": "哪种感官帮助灰狼狩猎并进行交流？",
-            "answer": "A. 敏锐听觉",
+            "question": "图书馆外墙在组装前是在哪里制作的？",
+            "answer": "B. 里斯本",
             "choices": {
-                "B. 灵敏嗅觉": 252,
-                "C. 敏锐视力": 62,
-                "A. 敏锐听觉": 205
+                "A. 马德里": 169,
+                "C. 科英布拉": 126,
+                "B. 里斯本": 267
             }
         }
     ]
