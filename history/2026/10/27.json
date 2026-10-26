@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/10/27",
+    "result": [
+        {
+            "question": "美国哪个州的池柏湿地较为常见？",
+            "answer": "B. 乔治亚州",
+            "choices": {
+                "A. 阿拉巴马州": 249,
+                "B. 乔治亚州": 174,
+                "C. 佛罗里达州": 118
+            }
+        },
+        {
+            "question": "哪个季节会导致池杉落叶？",
+            "answer": "B. 秋天",
+            "choices": {
+                "B. 秋天": 332,
+                "C. 夏季": 76,
+                "A. 春季": 67
+            }
+        },
+        {
+            "question": "哪种树与池杉关系密切？",
+            "answer": "B. 落羽杉",
+            "choices": {
+                "C. 红杉": 166,
+                "B. 落羽杉": 221,
+                "A. 白雪柏": 86
+            }
+        }
+    ]
+}
