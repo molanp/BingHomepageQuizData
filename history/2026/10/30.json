@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/10/30",
+    "result": [
+        {
+            "question": "在阿帕奇荒野保护区，哪种鸟是冬季重要象征？",
+            "answer": "C. 沙丘鹤",
+            "choices": {
+                "A. 雪雁": 250,
+                "C. 沙丘鹤": 220,
+                "B. 北针尾鸭": 101
+            }
+        },
+        {
+            "question": "博斯克德尔阿帕奇未提及哪种栖息地？",
+            "answer": "A. 沙漠",
+            "choices": {
+                "C. 农田": 119,
+                "A. 沙漠": 196,
+                "B. 湿地": 170
+            }
+        },
+        {
+            "question": "沙丘鹤在冬夜栖息于何处？",
+            "answer": "A. 浅水",
+            "choices": {
+                "C. 开阔的原野": 145,
+                "A. 浅水": 211,
+                "B. 森林边缘": 111
+            }
+        }
+    ]
+}
