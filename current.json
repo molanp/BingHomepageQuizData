@@ -1,32 +1,23 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
-    "date": "2026/10/30",
+    "date": "2026/10/31",
     "result": [
         {
-            "question": "在阿帕奇荒野保护区，哪种鸟是冬季重要象征？",
-            "answer": "C. 沙丘鹤",
+            "question": "哪个节日影响了万圣节的起源？",
+            "answer": "A. 萨温节",
             "choices": {
-                "A. 雪雁": 250,
-                "C. 沙丘鹤": 220,
-                "B. 北针尾鸭": 101
+                "A. 萨温节": 420,
+                "B. 尤尔节": 167,
+                "C. 贝尔坦节": 194
             }
         },
         {
-            "question": "博斯克德尔阿帕奇未提及哪种栖息地？",
-            "answer": "A. 沙漠",
+            "question": "基督教传统中，诸圣节是哪一天？",
+            "answer": "B. 11月1日",
             "choices": {
-                "C. 农田": 119,
-                "A. 沙漠": 196,
-                "B. 湿地": 170
-            }
-        },
-        {
-            "question": "沙丘鹤在冬夜栖息于何处？",
-            "answer": "A. 浅水",
-            "choices": {
-                "C. 开阔的原野": 145,
-                "A. 浅水": 211,
-                "B. 森林边缘": 111
+                "A. 10月31日": 300,
+                "C. 11月2日": 81,
+                "B. 11月1日": 288
             }
         }
     ]
