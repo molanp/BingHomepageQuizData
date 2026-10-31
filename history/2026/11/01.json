@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/01",
+    "result": [
+        {
+            "question": "黑森林中哪座山是最高峰？",
+            "answer": "B. 费尔德山",
+            "choices": {
+                "C. 霍尔尼斯格林德山": 483,
+                "A. 贝尔亨": 432,
+                "B. 费尔德山": 581
+            }
+        }
+    ]
+}
