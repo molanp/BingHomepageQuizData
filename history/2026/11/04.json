@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/04",
+    "result": [
+        {
+            "question": "哪种树在落叶前会变成红褐色？",
+            "answer": "A. 落羽杉",
+            "choices": {
+                "A. 落羽杉": 833,
+                "B. 银杏": 306,
+                "C. 欧洲赤松": 242
+            }
+        },
+        {
+            "question": "落羽杉能形成何种独特的根系结构？",
+            "answer": "C. 膝状根",
+            "choices": {
+                "C. 膝状根": 419,
+                "B. 支柱根": 274,
+                "A. 主根": 249
+            }
+        },
+        {
+            "question": "秃柏在湿地繁茂生长的大陆是哪个？",
+            "answer": "A. 北美洲",
+            "choices": {
+                "C. 亚洲": 197,
+                "A. 北美洲": 505,
+                "B. 欧洲": 185
+            }
+        }
+    ]
+}
