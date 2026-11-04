@@ -1,32 +1,32 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
-    "date": "2026/11/04",
+    "date": "2026/11/05",
     "result": [
         {
-            "question": "哪种树在落叶前会变成红褐色？",
-            "answer": "A. 落羽杉",
+            "question": "哪种特性使落羽杉能在湿地中茁壮成长？",
+            "answer": "C. 膝部根系",
             "choices": {
-                "A. 落羽杉": 833,
-                "B. 银杏": 306,
-                "C. 欧洲赤松": 242
+                "A. 浅根": 283,
+                "C. 膝部根系": 356,
+                "B. 主根": 166
             }
         },
         {
-            "question": "落羽杉能形成何种独特的根系结构？",
-            "answer": "C. 膝状根",
+            "question": "落羽杉在何洲自然闻名？",
+            "answer": "C. 北美洲",
             "choices": {
-                "C. 膝状根": 419,
-                "B. 支柱根": 274,
-                "A. 主根": 249
+                "C. 北美洲": 388,
+                "B. 非洲": 134,
+                "A. 亚洲": 146
             }
         },
         {
-            "question": "秃柏在湿地繁茂生长的大陆是哪个？",
-            "answer": "A. 北美洲",
+            "question": "每年秋季落羽杉的针叶会发生什么变化？",
+            "answer": "A. 掉落",
             "choices": {
-                "C. 亚洲": 197,
-                "A. 北美洲": 505,
-                "B. 欧洲": 185
+                "A. 掉落": 246,
+                "B. 变色": 255,
+                "C. 保持绿色": 166
             }
         }
     ]

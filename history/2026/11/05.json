@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/05",
+    "result": [
+        {
+            "question": "哪种特性使落羽杉能在湿地中茁壮成长？",
+            "answer": "C. 膝部根系",
+            "choices": {
+                "A. 浅根": 283,
+                "C. 膝部根系": 356,
+                "B. 主根": 166
+            }
+        },
+        {
+            "question": "落羽杉在何洲自然闻名？",
+            "answer": "C. 北美洲",
+            "choices": {
+                "C. 北美洲": 388,
+                "B. 非洲": 134,
+                "A. 亚洲": 146
+            }
+        },
+        {
+            "question": "每年秋季落羽杉的针叶会发生什么变化？",
+            "answer": "A. 掉落",
+            "choices": {
+                "A. 掉落": 246,
+                "B. 变色": 255,
+                "C. 保持绿色": 166
+            }
+        }
+    ]
+}
