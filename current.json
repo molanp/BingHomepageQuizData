@@ -1,32 +1,33 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
-    "date": "2026/11/05",
+    "date": "2026/11/06",
     "result": [
         {
-            "question": "哪种特性使落羽杉能在湿地中茁壮成长？",
-            "answer": "C. 膝部根系",
+            "question": "哪种鸟原产夏威夷并栖息于哈雷阿卡拉？",
+            "answer": "B. 夏威夷雁",
             "choices": {
-                "A. 浅根": 283,
-                "C. 膝部根系": 356,
-                "B. 主根": 166
+                "A. 蜂鸟": 331,
+                "B. 夏威夷雁": 414,
+                "C. 几维鸟": 99
             }
         },
         {
-            "question": "落羽杉在何洲自然闻名？",
-            "answer": "C. 北美洲",
+            "question": "哪个夏威夷岛拥有Pipiwai步道？",
+            "answer": "B. 毛伊",
             "choices": {
-                "C. 北美洲": 388,
-                "B. 非洲": 134,
-                "A. 亚洲": 146
+                "B. 毛伊": 330,
+                "C. 瓦胡岛": 219,
+                "A. 考艾": 124,
+                "毛伊": 1
             }
         },
         {
-            "question": "每年秋季落羽杉的针叶会发生什么变化？",
-            "answer": "A. 掉落",
+            "question": "哪种鸟类原产于哈雷阿卡拉国家公园？",
+            "answer": "C. 夏威夷鹅",
             "choices": {
-                "A. 掉落": 246,
-                "B. 变色": 255,
-                "C. 保持绿色": 166
+                "A. 翠鸟": 98,
+                "B. 红色金刚鹦鹉": 190,
+                "C. 夏威夷鹅": 334
             }
         }
     ]

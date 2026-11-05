@@ -1,0 +1,34 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/06",
+    "result": [
+        {
+            "question": "哪种鸟原产夏威夷并栖息于哈雷阿卡拉？",
+            "answer": "B. 夏威夷雁",
+            "choices": {
+                "A. 蜂鸟": 331,
+                "B. 夏威夷雁": 414,
+                "C. 几维鸟": 99
+            }
+        },
+        {
+            "question": "哪个夏威夷岛拥有Pipiwai步道？",
+            "answer": "B. 毛伊",
+            "choices": {
+                "B. 毛伊": 330,
+                "C. 瓦胡岛": 219,
+                "A. 考艾": 124,
+                "毛伊": 1
+            }
+        },
+        {
+            "question": "哪种鸟类原产于哈雷阿卡拉国家公园？",
+            "answer": "C. 夏威夷鹅",
+            "choices": {
+                "A. 翠鸟": 98,
+                "B. 红色金刚鹦鹉": 190,
+                "C. 夏威夷鹅": 334
+            }
+        }
+    ]
+}
