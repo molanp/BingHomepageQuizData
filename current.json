@@ -1,33 +1,32 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
-    "date": "2026/11/06",
+    "date": "2026/11/07",
     "result": [
         {
-            "question": "哪种鸟原产夏威夷并栖息于哈雷阿卡拉？",
-            "answer": "B. 夏威夷雁",
+            "question": "野牛用何特征能揭开雪下的草？",
+            "answer": "B. 强壮的肩峰",
             "choices": {
-                "A. 蜂鸟": 331,
-                "B. 夏威夷雁": 414,
-                "C. 几维鸟": 99
+                "C. 宽大的蹄": 303,
+                "B. 强壮的肩峰": 278,
+                "A. 长尾巴": 269
             }
         },
         {
-            "question": "哪个夏威夷岛拥有Pipiwai步道？",
-            "answer": "B. 毛伊",
+            "question": "野牛尾巴竖起通常意味着什么？",
+            "answer": "A. 骚动",
             "choices": {
-                "B. 毛伊": 330,
-                "C. 瓦胡岛": 219,
-                "A. 考艾": 124,
-                "毛伊": 1
+                "C. 饥饿": 97,
+                "A. 骚动": 457,
+                "B. 平静": 125
             }
         },
         {
-            "question": "哪种鸟类原产于哈雷阿卡拉国家公园？",
-            "answer": "C. 夏威夷鹅",
+            "question": "哪个美国公园自史前时期起一直有野牛栖息？",
+            "answer": "A. 黄石公园",
             "choices": {
-                "A. 翠鸟": 98,
-                "B. 红色金刚鹦鹉": 190,
-                "C. 夏威夷鹅": 334
+                "C. 优胜美地": 114,
+                "A. 黄石公园": 430,
+                "B. 锡安": 128
             }
         }
     ]
