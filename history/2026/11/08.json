@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/08",
+    "result": [
+        {
+            "question": "哪个梵语词意为“一排灯”？",
+            "answer": "B. 迪帕瓦利",
+            "choices": {
+                "B. 迪帕瓦利": 752,
+                "A. 迪皮卡": 545,
+                "C. 迪瓦拉": 259
+            }
+        },
+        {
+            "question": "在孟加拉的排灯节中，哪位女神受到尊崇？",
+            "answer": "B. 卡莉",
+            "choices": {
+                "A. 帕尔瓦蒂": 362,
+                "B. 卡莉": 448,
+                "C. 拉克希米": 223
+            }
+        },
+        {
+            "question": "哪个美国州将排灯节列为州假日？",
+            "answer": "B. 宾夕法尼亚州",
+            "choices": {
+                "A. 德克萨斯州": 248,
+                "C. 佛罗里达州": 252,
+                "B. 宾夕法尼亚州": 495
+            }
+        }
+    ]
+}
