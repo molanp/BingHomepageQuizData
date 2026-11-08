@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/09",
+    "result": [
+        {
+            "question": "哪条河流经色彩斑斓的特里亚纳区旁？",
+            "answer": "C. 瓜达尔基维尔",
+            "choices": {
+                "A. 塔霍河": 212,
+                "B. 埃布罗": 159,
+                "C. 瓜达尔基维尔": 220
+            }
+        },
+        {
+            "question": "哪座桥连接特里亚纳与塞维利亚历史中心？",
+            "answer": "C. 伊莎贝尔二世桥",
+            "choices": {
+                "B. 阿尔坎塔拉桥": 182,
+                "C. 伊莎贝尔二世桥": 188,
+                "A. 里亚托桥": 106
+            }
+        },
+        {
+            "question": "哪种艺术形式与特里亚纳街道有历史渊源？",
+            "answer": "B. 弗拉门戈",
+            "choices": {
+                "C. 探戈": 143,
+                "B. 弗拉门戈": 216,
+                "A. 桑巴舞": 94
+            }
+        }
+    ]
+}
