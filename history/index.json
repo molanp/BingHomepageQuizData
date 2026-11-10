@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/index_schema.json",
-    "time": 1794171585.7432628,
+    "time": 1794270898.281906,
     "data": {
         "2025/08/19": "/history/2025/08/19.json",
         "2025/08/20": "/history/2025/08/20.json",
@@ -429,6 +429,7 @@
         "2026/11/06": "/history/2026/11/06.json",
         "2026/11/07": "/history/2026/11/07.json",
         "2026/11/08": "/history/2026/11/08.json",
-        "2026/11/09": "/history/2026/11/09.json"
+        "2026/11/09": "/history/2026/11/09.json",
+        "2026/11/10": "/history/2026/11/10.json"
     }
 }
