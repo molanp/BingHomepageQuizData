@@ -1,32 +1,32 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
-    "date": "2026/11/10",
+    "date": "2026/11/11",
     "result": [
         {
-            "question": "巴哈马天堂岛东侧是哪座岛屿？",
-            "answer": "C. 玫瑰岛",
+            "question": "哪种珍稀灵长类动物原产于大西洋森林？",
+            "answer": "C. 金狮面狨",
             "choices": {
-                "A. 安德罗斯岛": 818,
-                "C. 玫瑰岛": 470,
-                "B. 港湾岛": 305
+                "C. 金狮面狨": 457,
+                "B. 吼猴": 326,
+                "A. 卷尾猴": 616
             }
         },
         {
-            "question": "哪种动物让玫瑰岛海滩以活泼著称？",
-            "answer": "B. 游泳的猪",
+            "question": "哪种南美大型猫科动物栖息于大西洋森林？",
+            "answer": "C. 美洲虎",
             "choices": {
-                "C. 海豚": 257,
-                "B. 游泳的猪": 391,
-                "A. 海龟": 296
+                "C. 美洲虎": 371,
+                "B. 豹猫": 261,
+                "A. 彪马": 188
             }
         },
         {
-            "question": "哪部詹姆斯&#183;邦德电影包含在玫瑰岛拍摄的场景？",
-            "answer": "A. 霹雳弹",
+            "question": "大西洋森林中存在哪种栖息地类型？",
+            "answer": "C. 红树林",
             "choices": {
-                "B. 诺博士": 271,
-                "A. 霹雳弹": 349,
-                "C. 金手指": 286
+                "C. 红树林": 504,
+                "B. 草原": 144,
+                "A. 沙漠": 120
             }
         }
     ]

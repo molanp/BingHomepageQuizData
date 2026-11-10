@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/11",
+    "result": [
+        {
+            "question": "哪种珍稀灵长类动物原产于大西洋森林？",
+            "answer": "C. 金狮面狨",
+            "choices": {
+                "C. 金狮面狨": 457,
+                "B. 吼猴": 326,
+                "A. 卷尾猴": 616
+            }
+        },
+        {
+            "question": "哪种南美大型猫科动物栖息于大西洋森林？",
+            "answer": "C. 美洲虎",
+            "choices": {
+                "C. 美洲虎": 371,
+                "B. 豹猫": 261,
+                "A. 彪马": 188
+            }
+        },
+        {
+            "question": "大西洋森林中存在哪种栖息地类型？",
+            "answer": "C. 红树林",
+            "choices": {
+                "C. 红树林": 504,
+                "B. 草原": 144,
+                "A. 沙漠": 120
+            }
+        }
+    ]
+}
