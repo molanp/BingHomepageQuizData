@@ -1,32 +1,32 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
-    "date": "2026/11/11",
+    "date": "2026/11/12",
     "result": [
         {
-            "question": "哪种珍稀灵长类动物原产于大西洋森林？",
-            "answer": "C. 金狮面狨",
+            "question": "哪个美国州拥有拱门国家公园？",
+            "answer": "A. 犹他州",
             "choices": {
-                "C. 金狮面狨": 457,
-                "B. 吼猴": 326,
-                "A. 卷尾猴": 616
+                "A. 犹他州": 633,
+                "B. 亚利桑那": 305,
+                "C. 内华达州": 239
             }
         },
         {
-            "question": "哪种南美大型猫科动物栖息于大西洋森林？",
-            "answer": "C. 美洲虎",
+            "question": "北窗拱门是由何种自然过程形成的？",
+            "answer": "A. 侵蚀",
             "choices": {
-                "C. 美洲虎": 371,
-                "B. 豹猫": 261,
-                "A. 彪马": 188
+                "A. 侵蚀": 501,
+                "B. 构造隆起": 211,
+                "C. 火山熔岩": 168
             }
         },
         {
-            "question": "大西洋森林中存在哪种栖息地类型？",
-            "answer": "C. 红树林",
+            "question": "拱门的Windows部分有哪些共同特征？",
+            "answer": "C. 岩石孔洞",
             "choices": {
-                "C. 红树林": 504,
-                "B. 草原": 144,
-                "A. 沙漠": 120
+                "C. 岩石孔洞": 525,
+                "A. 珊瑚礁": 165,
+                "B. 冰川谷地": 148
             }
         }
     ]

@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/12",
+    "result": [
+        {
+            "question": "哪个美国州拥有拱门国家公园？",
+            "answer": "A. 犹他州",
+            "choices": {
+                "A. 犹他州": 633,
+                "B. 亚利桑那": 305,
+                "C. 内华达州": 239
+            }
+        },
+        {
+            "question": "北窗拱门是由何种自然过程形成的？",
+            "answer": "A. 侵蚀",
+            "choices": {
+                "A. 侵蚀": 501,
+                "B. 构造隆起": 211,
+                "C. 火山熔岩": 168
+            }
+        },
+        {
+            "question": "拱门的Windows部分有哪些共同特征？",
+            "answer": "C. 岩石孔洞",
+            "choices": {
+                "C. 岩石孔洞": 525,
+                "A. 珊瑚礁": 165,
+                "B. 冰川谷地": 148
+            }
+        }
+    ]
+}
