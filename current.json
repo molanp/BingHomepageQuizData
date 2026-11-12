@@ -1,32 +1,32 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
-    "date": "2026/11/12",
+    "date": "2026/11/13",
     "result": [
         {
-            "question": "哪个美国州拥有拱门国家公园？",
-            "answer": "A. 犹他州",
+            "question": "哪种物质在亚伯拉罕湖冰下形成可见气泡？",
+            "answer": "C. 甲烷",
             "choices": {
-                "A. 犹他州": 633,
-                "B. 亚利桑那": 305,
-                "C. 内华达州": 239
+                "B. 二氧化碳": 284,
+                "C. 甲烷": 380,
+                "A. 氮": 200
             }
         },
         {
-            "question": "北窗拱门是由何种自然过程形成的？",
-            "answer": "A. 侵蚀",
+            "question": "阿尔伯塔的亚伯拉罕湖是由哪个水坝工程建成的？",
+            "answer": "A. Bighorn",
             "choices": {
-                "A. 侵蚀": 501,
-                "B. 构造隆起": 211,
-                "C. 火山熔岩": 168
+                "B. Kinbasket": 254,
+                "C. 和平河": 128,
+                "A. Bighorn": 317
             }
         },
         {
-            "question": "拱门的Windows部分有哪些共同特征？",
-            "answer": "C. 岩石孔洞",
+            "question": "亚伯拉罕湖的强风阻止了哪种表面变化？",
+            "answer": "B. 积雪覆盖",
             "choices": {
-                "C. 岩石孔洞": 525,
-                "A. 珊瑚礁": 165,
-                "B. 冰川谷地": 148
+                "A. 冰裂": 125,
+                "B. 积雪覆盖": 359,
+                "C. 藻类繁殖": 177
             }
         }
     ]
