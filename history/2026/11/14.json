@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/14",
+    "result": [
+        {
+            "question": "哪个港口因促进香港贸易而闻名？",
+            "answer": "C. 维多利亚港",
+            "choices": {
+                "C. 维多利亚港": 639,
+                "B. 悉尼港": 121,
+                "A. 哈利法克斯港": 207
+            }
+        },
+        {
+            "question": "香港的平坦土地受哪种自然屏障限制？",
+            "answer": "B. 山丘",
+            "choices": {
+                "B. 山丘": 570,
+                "A. 沙漠": 98,
+                "C. 湖泊": 207
+            }
+        },
+        {
+            "question": "历史上哪些货物从香港出口？",
+            "answer": "B. 茶与丝绸",
+            "choices": {
+                "B. 茶与丝绸": 571,
+                "C. 咖啡与糖": 188,
+                "A. 小麦与棉花": 88
+            }
+        }
+    ]
+}
