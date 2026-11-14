@@ -1,32 +1,32 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
-    "date": "2026/11/14",
+    "date": "2026/11/15",
     "result": [
         {
-            "question": "哪个港口因促进香港贸易而闻名？",
-            "answer": "C. 维多利亚港",
+            "question": "哪种色素帮助叶片耐受气温下降？",
+            "answer": "B. 花青素",
             "choices": {
-                "C. 维多利亚港": 639,
-                "B. 悉尼港": 121,
-                "A. 哈利法克斯港": 207
+                "A. 叶绿素": 690,
+                "B. 花青素": 788,
+                "C. 胡萝卜素": 268
             }
         },
         {
-            "question": "香港的平坦土地受哪种自然屏障限制？",
-            "answer": "B. 山丘",
+            "question": "杜鹃叶在秋季霜冻时会变成什么颜色？",
+            "answer": "C. 红与紫",
             "choices": {
-                "B. 山丘": 570,
-                "A. 沙漠": 98,
-                "C. 湖泊": 207
+                "B. 金棕色": 378,
+                "C. 红与紫": 633,
+                "A. 亮蓝色": 190
             }
         },
         {
-            "question": "历史上哪些货物从香港出口？",
-            "answer": "B. 茶与丝绸",
+            "question": "杜鹃花在哪个季节恢复绿色叶子？",
+            "answer": "B. 春天",
             "choices": {
-                "B. 茶与丝绸": 571,
-                "C. 咖啡与糖": 188,
-                "A. 小麦与棉花": 88
+                "B. 春天": 715,
+                "A. 秋季": 209,
+                "C. 夏季": 219
             }
         }
     ]
