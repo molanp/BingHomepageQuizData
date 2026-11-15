@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/16",
+    "result": [
+        {
+            "question": "哪种文化在新墨西哥的五个悬崖洞穴中建造房间？",
+            "answer": "C. 莫戈隆",
+            "choices": {
+                "A. 霍霍卡姆": 261,
+                "B. 阿纳萨齐": 184,
+                "C. 莫戈隆": 182
+            }
+        },
+        {
+            "question": "莫戈隆人俯瞰的是哪条河谷？",
+            "answer": "B. 吉拉河",
+            "choices": {
+                "A. 里奥格兰德": 149,
+                "B. 吉拉河": 276,
+                "C. 圣菲河": 88
+            }
+        },
+        {
+            "question": "吉拉悬崖居所在1907年被指定为何种保护地？",
+            "answer": "B. 国家纪念碑",
+            "choices": {
+                "B. 国家纪念碑": 186,
+                "C. 国家公园": 97,
+                "A. 世界遗产地": 219
+            }
+        }
+    ]
+}
