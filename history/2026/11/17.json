@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/17",
+    "result": [
+        {
+            "question": "美国哪个州拥有冰川国家公园？",
+            "answer": "C. 蒙大拿州",
+            "choices": {
+                "A. 怀俄明州": 1225,
+                "B. 科罗拉多州": 1051,
+                "C. 蒙大拿州": 1429
+            }
+        },
+        {
+            "question": "在Trail of the Cedars可见哪种树属？",
+            "answer": "C. Thuja",
+            "choices": {
+                "C. Thuja": 910,
+                "B. Pinus": 880,
+                "A. Betula": 771
+            }
+        },
+        {
+            "question": "哪项设施使人在雪松小径上行走更轻松？",
+            "answer": "C. 木板道",
+            "choices": {
+                "B. 缆索桥": 526,
+                "C. 木板道": 1307,
+                "A. 石径": 616
+            }
+        }
+    ]
+}
