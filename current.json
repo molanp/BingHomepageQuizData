@@ -1,32 +1,33 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
-    "date": "2026/11/17",
+    "date": "2026/11/18",
     "result": [
         {
-            "question": "美国哪个州拥有冰川国家公园？",
-            "answer": "C. 蒙大拿州",
+            "question": "仓鸮耳朵在黑暗中探测猎物的原因是什么？",
+            "answer": "A. 心形脸",
             "choices": {
-                "A. 怀俄明州": 1225,
-                "B. 科罗拉多州": 1051,
-                "C. 蒙大拿州": 1429
+                "A. 心形脸": 1330,
+                "C. 翼展宽": 431,
+                "B. 长尾羽": 594,
+                "心形脸": 1
             }
         },
         {
-            "question": "在Trail of the Cedars可见哪种树属？",
-            "answer": "C. Thuja",
+            "question": "仓鸮为何在夜间无声接近猎物？",
+            "answer": "A. 柔软羽毛",
             "choices": {
-                "C. Thuja": 910,
-                "B. Pinus": 880,
-                "A. Betula": 771
+                "B. 强壮的爪子": 347,
+                "C. 快速振翅": 419,
+                "A. 柔软羽毛": 895
             }
         },
         {
-            "question": "哪项设施使人在雪松小径上行走更轻松？",
-            "answer": "C. 木板道",
+            "question": "年轻仓鸮何时离巢寻找新领地？",
+            "answer": "B. 秋季",
             "choices": {
-                "B. 缆索桥": 526,
-                "C. 木板道": 1307,
-                "A. 石径": 616
+                "A. 夏季": 472,
+                "B. 秋季": 735,
+                "C. 春季": 397
             }
         }
     ]
