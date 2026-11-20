@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/21",
+    "result": [
+        {
+            "question": "哪一个王室王朝曾与尼斯有密切联系？",
+            "answer": "C. 萨伏伊王朝",
+            "choices": {
+                "A. 哈布斯堡王朝": 365,
+                "B. 波旁王朝": 315,
+                "C. 萨伏伊王朝": 241
+            }
+        },
+        {
+            "question": "哪一古代文明建立了尼斯城？",
+            "answer": "C. 希腊人",
+            "choices": {
+                "B. 罗马人": 241,
+                "A. 迦太基人": 306,
+                "C. 希腊人": 240
+            }
+        },
+        {
+            "question": "哪个王室王朝与尼斯关系密切？",
+            "answer": "A. 萨沃伊",
+            "choices": {
+                "C. 哈布斯堡": 199,
+                "B. 波旁王朝": 208,
+                "A. 萨沃伊": 348
+            }
+        }
+    ]
+}
