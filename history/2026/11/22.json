@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/22",
+    "result": [
+        {
+            "question": "Justa隐修院俯瞰的是哪片海域？",
+            "answer": "B. 坎塔布连海",
+            "choices": {
+                "A. 巴斯克海": 639,
+                "C. 地中海": 272,
+                "B. 坎塔布连海": 599
+            }
+        },
+        {
+            "question": "西班牙的贾斯塔隐修院位于何处？",
+            "answer": "C. 坎塔布里亚",
+            "choices": {
+                "C. 坎塔布里亚": 397,
+                "B. 阿斯图里亚斯": 348,
+                "A. 加利西亚": 249
+            }
+        },
+        {
+            "question": "Justa隐修院部分建于哪种自然景观中？",
+            "answer": "B. 岩壁",
+            "choices": {
+                "B. 岩壁": 532,
+                "A. 森林边缘": 251,
+                "C. 沙丘": 185
+            }
+        }
+    ]
+}
