@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/23",
+    "result": [
+        {
+            "question": "哪种热带水果的纹理呈现斐波那契螺旋形？",
+            "answer": "B. 菠萝",
+            "choices": {
+                "A. 芒果": 263,
+                "B. 菠萝": 374,
+                "C. 椰子": 66
+            }
+        },
+        {
+            "question": "哪种多肉植物特征与斐波那契螺旋有关？",
+            "answer": "B. 叶序",
+            "choices": {
+                "B. 叶序": 359,
+                "C. 根长": 113,
+                "A. 茎的颜色": 117
+            }
+        },
+        {
+            "question": "哪种植物常呈现符合斐波那契数列的螺旋形状？",
+            "answer": "A. 向日葵",
+            "choices": {
+                "A. 向日葵": 320,
+                "C. 枫树": 132,
+                "B. 樱桃": 104
+            }
+        }
+    ]
+}

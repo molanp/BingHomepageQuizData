@@ -1,32 +1,32 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
-    "date": "2026/11/22",
+    "date": "2026/11/23",
     "result": [
         {
-            "question": "Justa隐修院俯瞰的是哪片海域？",
-            "answer": "B. 坎塔布连海",
+            "question": "哪种热带水果的纹理呈现斐波那契螺旋形？",
+            "answer": "B. 菠萝",
             "choices": {
-                "A. 巴斯克海": 639,
-                "C. 地中海": 272,
-                "B. 坎塔布连海": 599
+                "A. 芒果": 263,
+                "B. 菠萝": 374,
+                "C. 椰子": 66
             }
         },
         {
-            "question": "西班牙的贾斯塔隐修院位于何处？",
-            "answer": "C. 坎塔布里亚",
+            "question": "哪种多肉植物特征与斐波那契螺旋有关？",
+            "answer": "B. 叶序",
             "choices": {
-                "C. 坎塔布里亚": 397,
-                "B. 阿斯图里亚斯": 348,
-                "A. 加利西亚": 249
+                "B. 叶序": 359,
+                "C. 根长": 113,
+                "A. 茎的颜色": 117
             }
         },
         {
-            "question": "Justa隐修院部分建于哪种自然景观中？",
-            "answer": "B. 岩壁",
+            "question": "哪种植物常呈现符合斐波那契数列的螺旋形状？",
+            "answer": "A. 向日葵",
             "choices": {
-                "B. 岩壁": 532,
-                "A. 森林边缘": 251,
-                "C. 沙丘": 185
+                "A. 向日葵": 320,
+                "C. 枫树": 132,
+                "B. 樱桃": 104
             }
         }
     ]
