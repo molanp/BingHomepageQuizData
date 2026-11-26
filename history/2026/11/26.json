@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/26",
+    "result": [
+        {
+            "question": "哪条河流为夏威夷的彩虹瀑布提供水源？",
+            "answer": "A. 怀卢库河",
+            "choices": {
+                "A. 怀卢库河": 1345,
+                "B. 哈纳雷河": 586,
+                "C. 怀阿凯亚溪": 414
+            }
+        },
+        {
+            "question": "夏威夷语名Waiānuenue是什么意思？",
+            "answer": "C. 彩虹之水",
+            "choices": {
+                "C. 彩虹之水": 850,
+                "B. 海洋之魂": 513,
+                "A. 流水": 314
+            }
+        },
+        {
+            "question": "夏威夷彩虹瀑布周围是什么自然景观？",
+            "answer": "A. 热带植被",
+            "choices": {
+                "B. 沙漠灌木": 258,
+                "A. 热带植被": 997,
+                "C. 高山森林": 348
+            }
+        }
+    ]
+}
