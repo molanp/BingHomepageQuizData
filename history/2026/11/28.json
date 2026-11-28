@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
+    "date": "2026/11/28",
+    "result": [
+        {
+            "question": "1841年前，布拉格唯一的步行桥是哪座？",
+            "answer": "C. 查理大桥",
+            "choices": {
+                "B. 军团大桥": 484,
+                "C. 查理大桥": 685,
+                "A. 马内斯桥": 847
+            }
+        },
+        {
+            "question": "查理大桥塔楼采用何种建筑风格？",
+            "answer": "C. 哥特",
+            "choices": {
+                "A. 文艺复兴": 422,
+                "B. 巴洛克": 527,
+                "C. 哥特": 515
+            }
+        },
+        {
+            "question": "哪座桥可观赏布拉格城堡与国家剧院景色？",
+            "answer": "C. 军团大桥",
+            "choices": {
+                "C. 军团大桥": 562,
+                "B. 切赫桥": 304,
+                "A. 马内斯桥": 535
+            }
+        }
+    ]
+}

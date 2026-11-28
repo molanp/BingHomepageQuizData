@@ -1,32 +1,32 @@
 {
     "$schema": "https://raw.githubusercontent.com/molanp/BingHomepageQuizData/refs/heads/main/schema.json",
-    "date": "2026/11/27",
+    "date": "2026/11/28",
     "result": [
         {
-            "question": "美国哪个州有位于鲍威尔湖附近的面孔峡谷？",
-            "answer": "B. 犹他州",
+            "question": "1841年前，布拉格唯一的步行桥是哪座？",
+            "answer": "C. 查理大桥",
             "choices": {
-                "B. 犹他州": 665,
-                "A. 亚利桑那": 818,
-                "C. 内华达州": 301
+                "B. 军团大桥": 484,
+                "C. 查理大桥": 685,
+                "A. 马内斯桥": 847
             }
         },
         {
-            "question": "哪座水坝形成了流向面峡谷的水域？",
-            "answer": "C. 格伦峡谷大坝",
+            "question": "查理大桥塔楼采用何种建筑风格？",
+            "answer": "C. 哥特",
             "choices": {
-                "C. 格伦峡谷大坝": 547,
-                "A. 格兰德库利水坝": 463,
-                "B. 胡佛水坝": 518
+                "A. 文艺复兴": 422,
+                "B. 巴洛克": 527,
+                "C. 哥特": 515
             }
         },
         {
-            "question": "FaceCanyon悬崖周围是什么自然景观？",
-            "answer": "B. 砂岩",
+            "question": "哪座桥可观赏布拉格城堡与国家剧院景色？",
+            "answer": "C. 军团大桥",
             "choices": {
-                "B. 砂岩": 668,
-                "A. 盐沼": 362,
-                "C. 玄武岩": 409
+                "C. 军团大桥": 562,
+                "B. 切赫桥": 304,
+                "A. 马内斯桥": 535
             }
         }
     ]
